@@ -1,0 +1,548 @@
+{
+  "protocol_version": "paired-family-calibration-v1",
+  "family": "xgboost",
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "scope": "Family-specific post-selection calibration diagnostic on previously inspected development folds",
+  "deployment_gate": {
+    "passed": true,
+    "criteria": "Both pooled outer Brier and log loss must improve over that family raw output"
+  },
+  "outer_raw": {
+    "brier": 0.034448554032687394,
+    "log_loss": 0.139147590237176,
+    "mean_prediction": 0.0732901860732663,
+    "observed_rate": 0.06965811965811966
+  },
+  "outer_calibrated": {
+    "brier": 0.03177616571823639,
+    "log_loss": 0.1206641299962594,
+    "mean_prediction": 0.07156430947519729,
+    "observed_rate": 0.06965811965811966
+  },
+  "outer_reliability": {
+    "raw": [
+      {
+        "lower": 0,
+        "upper": 0.05,
+        "n": 3960,
+        "events": 53,
+        "mean_prediction": 0.004925246342478218,
+        "observed_rate": 0.013383838383838383,
+        "wilson95_lower": 0.010247187322482018,
+        "wilson95_upper": 0.017463673457851433
+      },
+      {
+        "lower": 0.05,
+        "upper": 0.1,
+        "n": 150,
+        "events": 11,
+        "mean_prediction": 0.07206424342908946,
+        "observed_rate": 0.07333333333333333,
+        "wilson95_lower": 0.041438815160384994,
+        "wilson95_upper": 0.12653579336704038
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 143,
+        "events": 18,
+        "mean_prediction": 0.14375534974222426,
+        "observed_rate": 0.1258741258741259,
+        "wilson95_lower": 0.08112491035257627,
+        "wilson95_upper": 0.1901980466696904
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 104,
+        "events": 29,
+        "mean_prediction": 0.2850953112949987,
+        "observed_rate": 0.27884615384615385,
+        "wilson95_lower": 0.2017228201174867,
+        "wilson95_upper": 0.37172508662417475
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6,
+        "n": 72,
+        "events": 27,
+        "mean_prediction": 0.4889125734640733,
+        "observed_rate": 0.375,
+        "wilson95_lower": 0.2721917834183841,
+        "wilson95_upper": 0.4904710097307303
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.8,
+        "n": 48,
+        "events": 16,
+        "mean_prediction": 0.7054721691807465,
+        "observed_rate": 0.3333333333333333,
+        "wilson95_lower": 0.21676780694818568,
+        "wilson95_upper": 0.4745989029405201
+      },
+      {
+        "lower": 0.8,
+        "upper": 1,
+        "n": 203,
+        "events": 172,
+        "mean_prediction": 0.9527741970167593,
+        "observed_rate": 0.8472906403940886,
+        "wilson95_lower": 0.7913976924601075,
+        "wilson95_upper": 0.8902838273082746
+      }
+    ],
+    "calibrated": [
+      {
+        "lower": 0,
+        "upper": 0.05,
+        "n": 3750,
+        "events": 41,
+        "mean_prediction": 0.011371249184991833,
+        "observed_rate": 0.010933333333333333,
+        "wilson95_lower": 0.008069787909683292,
+        "wilson95_upper": 0.014797842426431666
+      },
+      {
+        "lower": 0.05,
+        "upper": 0.1,
+        "n": 310,
+        "events": 15,
+        "mean_prediction": 0.0714799008102937,
+        "observed_rate": 0.04838709677419355,
+        "wilson95_lower": 0.029539441536655914,
+        "wilson95_upper": 0.07829034917314524
+      },
+      {
+        "lower": 0.1,
+        "upper": 0.2,
+        "n": 208,
+        "events": 27,
+        "mean_prediction": 0.1386096858517537,
+        "observed_rate": 0.12980769230769232,
+        "wilson95_lower": 0.09076696243402654,
+        "wilson95_upper": 0.1822742974906988
+      },
+      {
+        "lower": 0.2,
+        "upper": 0.4,
+        "n": 152,
+        "events": 48,
+        "mean_prediction": 0.28413229464341205,
+        "observed_rate": 0.3157894736842105,
+        "wilson95_lower": 0.2472096984918171,
+        "wilson95_upper": 0.3934507494802998
+      },
+      {
+        "lower": 0.4,
+        "upper": 0.6,
+        "n": 63,
+        "events": 31,
+        "mean_prediction": 0.4984428903324049,
+        "observed_rate": 0.49206349206349204,
+        "wilson95_lower": 0.37266808813984664,
+        "wilson95_upper": 0.6123711372504527
+      },
+      {
+        "lower": 0.6,
+        "upper": 0.8,
+        "n": 65,
+        "events": 41,
+        "mean_prediction": 0.7012838948977763,
+        "observed_rate": 0.6307692307692307,
+        "wilson95_lower": 0.5092381736255003,
+        "wilson95_upper": 0.7377060412592911
+      },
+      {
+        "lower": 0.8,
+        "upper": 1,
+        "n": 132,
+        "events": 123,
+        "mean_prediction": 0.9175434541420646,
+        "observed_rate": 0.9318181818181818,
+        "wilson95_lower": 0.8754959371651043,
+        "wilson95_upper": 0.9637176651451884
+      }
+    ]
+  },
+  "outer_folds": [
+    {
+      "outer_fold": 0,
+      "family": "xgboost",
+      "parameters": {
+        "n_estimators": 800,
+        "learning_rate": 0.11322354832260055,
+        "subsample": 0.866884153912825,
+        "colsample_bytree": 0.8887743317843408,
+        "reg_alpha": 0.01,
+        "weight_multiplier": 1.6780389653847196,
+        "max_depth": 3,
+        "min_child_weight": 10.893680148410569,
+        "reg_lambda": 2.5306921638512643,
+        "gamma": 1.0
+      },
+      "training_rows": 3744,
+      "evaluation_rows": 936,
+      "calibrator": {
+        "method": "positive_slope_sigmoid_on_raw_margin",
+        "center": -5.145378777612887,
+        "scale": 3.1320293506251486,
+        "slope": 2.112448728776331,
+        "intercept": -4.329028319273426,
+        "calibration_rows": 3744,
+        "calibration_positives": 261
+      },
+      "metrics": {
+        "recall_at_10": 0.7846153846153846,
+        "precision_at_10": 0.5425531914893617,
+        "lift_at_10": 7.812765957446808,
+        "captured": 51,
+        "reviewed": 94,
+        "positives": 65,
+        "average_precision": 0.7337192911449492,
+        "roc_auc": 0.91387441490771,
+        "pr_auc_trapezoid": 0.7326129633609528,
+        "accuracy": 0.9497863247863247,
+        "precision": 0.6451612903225806,
+        "recall": 0.6153846153846154,
+        "f1": 0.6299212598425197,
+        "confusion_matrix": [
+          [
+            849,
+            22
+          ],
+          [
+            25,
+            40
+          ]
+        ]
+      },
+      "raw": {
+        "brier": 0.03640225220139382,
+        "log_loss": 0.1474339957255794,
+        "mean_prediction": 0.08210588560615506,
+        "observed_rate": 0.06944444444444445
+      },
+      "calibrated": {
+        "brier": 0.03179666768024825,
+        "log_loss": 0.127945792190077,
+        "mean_prediction": 0.06901653983272721,
+        "observed_rate": 0.06944444444444445
+      },
+      "fit_seconds": 2.7190669999981765,
+      "fit_evaluation_disjoint": true,
+      "matches_original_outer_metrics": true
+    },
+    {
+      "outer_fold": 1,
+      "family": "xgboost",
+      "parameters": {
+        "n_estimators": 900,
+        "learning_rate": 0.05150006017619179,
+        "subsample": 0.8798648778518436,
+        "colsample_bytree": 0.7256944138912027,
+        "reg_alpha": 0.0,
+        "weight_multiplier": 0.5441623827763318,
+        "max_depth": 8,
+        "min_child_weight": 1.3529208639356145,
+        "reg_lambda": 0.2242256398509961,
+        "gamma": 0.0
+      },
+      "training_rows": 3744,
+      "evaluation_rows": 936,
+      "calibrator": {
+        "method": "positive_slope_sigmoid_on_raw_margin",
+        "center": -7.299297961802421,
+        "scale": 3.4169555137931447,
+        "slope": 1.818011249444202,
+        "intercept": -3.946824756541631,
+        "calibration_rows": 3744,
+        "calibration_positives": 261
+      },
+      "metrics": {
+        "recall_at_10": 0.8153846153846154,
+        "precision_at_10": 0.5638297872340425,
+        "lift_at_10": 8.119148936170212,
+        "captured": 53,
+        "reviewed": 94,
+        "positives": 65,
+        "average_precision": 0.7153316341202705,
+        "roc_auc": 0.9305837675527686,
+        "pr_auc_trapezoid": 0.7135904366396282,
+        "accuracy": 0.9540598290598291,
+        "precision": 0.7037037037037037,
+        "recall": 0.5846153846153846,
+        "f1": 0.6386554621848739,
+        "confusion_matrix": [
+          [
+            855,
+            16
+          ],
+          [
+            27,
+            38
+          ]
+        ]
+      },
+      "raw": {
+        "brier": 0.03764783256626546,
+        "log_loss": 0.16876378424305732,
+        "mean_prediction": 0.06183946198717167,
+        "observed_rate": 0.06944444444444445
+      },
+      "calibrated": {
+        "brier": 0.03418207126468204,
+        "log_loss": 0.12735967925324948,
+        "mean_prediction": 0.07676142861262379,
+        "observed_rate": 0.06944444444444445
+      },
+      "fit_seconds": 8.626109900011215,
+      "fit_evaluation_disjoint": true,
+      "matches_original_outer_metrics": true
+    },
+    {
+      "outer_fold": 2,
+      "family": "xgboost",
+      "parameters": {
+        "n_estimators": 1500,
+        "learning_rate": 0.03815459334977592,
+        "subsample": 0.9016554443104767,
+        "colsample_bytree": 0.8672740152601308,
+        "reg_alpha": 0.1,
+        "weight_multiplier": 1.3293566100013783,
+        "max_depth": 5,
+        "min_child_weight": 3.223853978468764,
+        "reg_lambda": 0.32697330567839156,
+        "gamma": 0.01
+      },
+      "training_rows": 3744,
+      "evaluation_rows": 936,
+      "calibrator": {
+        "method": "positive_slope_sigmoid_on_raw_margin",
+        "center": -6.581477599246908,
+        "scale": 3.382837856306554,
+        "slope": 1.9308812155845863,
+        "intercept": -4.09799792089581,
+        "calibration_rows": 3744,
+        "calibration_positives": 261
+      },
+      "metrics": {
+        "recall_at_10": 0.7692307692307693,
+        "precision_at_10": 0.5319148936170213,
+        "lift_at_10": 7.659574468085106,
+        "captured": 50,
+        "reviewed": 94,
+        "positives": 65,
+        "average_precision": 0.7443571370560497,
+        "roc_auc": 0.9510200476905414,
+        "pr_auc_trapezoid": 0.7430036633584824,
+        "accuracy": 0.9583333333333334,
+        "precision": 0.7954545454545454,
+        "recall": 0.5384615384615384,
+        "f1": 0.6422018348623854,
+        "confusion_matrix": [
+          [
+            862,
+            9
+          ],
+          [
+            30,
+            35
+          ]
+        ]
+      },
+      "raw": {
+        "brier": 0.03346233300012692,
+        "log_loss": 0.13429063358797072,
+        "mean_prediction": 0.056497766514415806,
+        "observed_rate": 0.06944444444444445
+      },
+      "calibrated": {
+        "brier": 0.03222778160555664,
+        "log_loss": 0.11715875954657531,
+        "mean_prediction": 0.0646217406937059,
+        "observed_rate": 0.06944444444444445
+      },
+      "fit_seconds": 21.802255300004617,
+      "fit_evaluation_disjoint": true,
+      "matches_original_outer_metrics": true
+    },
+    {
+      "outer_fold": 3,
+      "family": "xgboost",
+      "parameters": {
+        "n_estimators": 1400,
+        "learning_rate": 0.08538275575274287,
+        "subsample": 0.9496175991015057,
+        "colsample_bytree": 0.9926200098153825,
+        "reg_alpha": 0.0,
+        "weight_multiplier": 1.3154446188237288,
+        "max_depth": 3,
+        "min_child_weight": 9.6525988023398,
+        "reg_lambda": 3.8901287275161414,
+        "gamma": 0.5
+      },
+      "training_rows": 3744,
+      "evaluation_rows": 936,
+      "calibrator": {
+        "method": "positive_slope_sigmoid_on_raw_margin",
+        "center": -5.284314295025948,
+        "scale": 3.1519130860066973,
+        "slope": 2.1419382537335436,
+        "intercept": -4.3627103769010835,
+        "calibration_rows": 3744,
+        "calibration_positives": 261
+      },
+      "metrics": {
+        "recall_at_10": 0.8307692307692308,
+        "precision_at_10": 0.574468085106383,
+        "lift_at_10": 8.272340425531915,
+        "captured": 54,
+        "reviewed": 94,
+        "positives": 65,
+        "average_precision": 0.7762983048917315,
+        "roc_auc": 0.9455268038505696,
+        "pr_auc_trapezoid": 0.7751018412061361,
+        "accuracy": 0.9583333333333334,
+        "precision": 0.7166666666666667,
+        "recall": 0.6615384615384615,
+        "f1": 0.688,
+        "confusion_matrix": [
+          [
+            854,
+            17
+          ],
+          [
+            22,
+            43
+          ]
+        ]
+      },
+      "raw": {
+        "brier": 0.031382238001887955,
+        "log_loss": 0.12186964014429019,
+        "mean_prediction": 0.07747132203870562,
+        "observed_rate": 0.06944444444444445
+      },
+      "calibrated": {
+        "brier": 0.02947683647811366,
+        "log_loss": 0.1107712682904817,
+        "mean_prediction": 0.06860919879045678,
+        "observed_rate": 0.06944444444444445
+      },
+      "fit_seconds": 10.04092749999836,
+      "fit_evaluation_disjoint": true,
+      "matches_original_outer_metrics": true
+    },
+    {
+      "outer_fold": 4,
+      "family": "xgboost",
+      "parameters": {
+        "n_estimators": 1000,
+        "learning_rate": 0.01417912260783671,
+        "subsample": 0.9233918909434181,
+        "colsample_bytree": 0.6097016094669724,
+        "reg_alpha": 0.0,
+        "weight_multiplier": 1.4163993045415972,
+        "max_depth": 5,
+        "min_child_weight": 1.4348700705689788,
+        "reg_lambda": 1.4303585824447587,
+        "gamma": 0.01
+      },
+      "training_rows": 3744,
+      "evaluation_rows": 936,
+      "calibrator": {
+        "method": "positive_slope_sigmoid_on_raw_margin",
+        "center": -4.656479846154296,
+        "scale": 2.4874060906451367,
+        "slope": 1.7422219075535275,
+        "intercept": -3.9447230556481507,
+        "calibration_rows": 3744,
+        "calibration_positives": 260
+      },
+      "metrics": {
+        "recall_at_10": 0.7575757575757576,
+        "precision_at_10": 0.5319148936170213,
+        "lift_at_10": 7.543520309477756,
+        "captured": 50,
+        "reviewed": 94,
+        "positives": 66,
+        "average_precision": 0.759569981198018,
+        "roc_auc": 0.9420411006617904,
+        "pr_auc_trapezoid": 0.758455783073308,
+        "accuracy": 0.9583333333333334,
+        "precision": 0.7288135593220338,
+        "recall": 0.6515151515151515,
+        "f1": 0.688,
+        "confusion_matrix": [
+          [
+            854,
+            16
+          ],
+          [
+            23,
+            43
+          ]
+        ]
+      },
+      "raw": {
+        "brier": 0.0333481143937628,
+        "log_loss": 0.1233798974849824,
+        "mean_prediction": 0.0885364942198834,
+        "observed_rate": 0.07051282051282051
+      },
+      "calibrated": {
+        "brier": 0.031197471562581357,
+        "log_loss": 0.1200851507009135,
+        "mean_prediction": 0.07881263944647278,
+        "observed_rate": 0.07051282051282051
+      },
+      "fit_seconds": 11.01569259999087,
+      "fit_evaluation_disjoint": true,
+      "matches_original_outer_metrics": true
+    }
+  ],
+  "final_calibrator": {
+    "method": "positive_slope_sigmoid_on_raw_margin",
+    "center": -4.802696084113728,
+    "scale": 2.614427709053332,
+    "slope": 2.057316775321732,
+    "intercept": -4.310154569150709,
+    "calibration_rows": 4680,
+    "calibration_positives": 326
+  },
+  "historical_test": {
+    "status": "Previously inspected descriptive benchmark, not fresh external validation",
+    "raw": {
+      "brier": 0.030392975669115873,
+      "log_loss": 0.1129113360563256,
+      "mean_prediction": 0.0803881762349829,
+      "observed_rate": 0.07008547008547009
+    },
+    "calibrated": {
+      "brier": 0.029012018334284663,
+      "log_loss": 0.10760901800802239,
+      "mean_prediction": 0.07400841024848974,
+      "observed_rate": 0.07008547008547009
+    }
+  },
+  "original_ranking_preserved": true,
+  "top10_original": {
+    "capacity": 0.1,
+    "reviewed": 117,
+    "captured": 67,
+    "total_positive": 82,
+    "recall": 0.8170731707317073,
+    "precision": 0.5726495726495726,
+    "lift": 8.170731707317072
+  },
+  "top10_probability_mean": 0.5841618717931818,
+  "top10_expected_count": 68.34693899980228,
+  "final_model_sha256_unchanged": true,
+  "limitations": [
+    "Outer folds previously inspected; not a fresh independent validation.",
+    "Per-fold hyperparameters were selected on their training labels before OOF calibration.",
+    "Final mapping uses OOF predictions with full-development-selected parameters.",
+    "No contemporary local external validation; individual probabilities are exploratory."
+  ]
+}

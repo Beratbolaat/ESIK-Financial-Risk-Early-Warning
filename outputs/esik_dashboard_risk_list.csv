@@ -1,0 +1,1171 @@
+COMPANY_ID,RISK_RANK,RISK_SCORE,RISK_PERCENTILE,RISK_GROUP,RECOMMENDED_ACTION,ANALYST_REVIEW,ACTUAL_BANKRUPT,ACTUAL_STATUS
+ESIK-05585,1,0.9988789,100.0,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05594,2,0.9988707,99.91452991452991,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05817,3,0.99843234,99.82905982905983,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05810,4,0.99806684,99.74358974358975,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05546,5,0.9980609,99.65811965811966,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05740,6,0.9976369,99.57264957264957,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05709,7,0.9969041,99.48717948717949,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05567,8,0.99562305,99.40170940170941,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05673,9,0.9955375,99.31623931623932,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05691,10,0.99487644,99.23076923076923,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05495,11,0.99472344,99.14529914529915,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05758,12,0.9944406,99.05982905982907,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05797,13,0.9944114,98.97435897435898,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05470,14,0.9943403,98.88888888888889,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05839,15,0.9937767,98.80341880341881,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05733,16,0.99239385,98.71794871794873,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05765,17,0.99175745,98.63247863247864,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-02536,18,0.988846,98.54700854700855,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05556,19,0.9884643,98.46153846153847,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05686,20,0.98812217,98.37606837606837,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05756,21,0.98765,98.29059829059828,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05792,22,0.9851901,98.2051282051282,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05649,23,0.98275536,98.11965811965811,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05492,24,0.98228204,98.03418803418803,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05667,25,0.97952795,97.94871794871794,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05496,26,0.9795085,97.86324786324786,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05543,27,0.9792594,97.77777777777777,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05730,28,0.97918427,97.6923076923077,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05722,29,0.9785488,97.6068376068376,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05721,30,0.97786283,97.52136752136752,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05577,31,0.9777999,97.43589743589743,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-01294,32,0.9706197,97.35042735042735,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05702,33,0.9626187,97.26495726495726,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05754,34,0.960893,97.17948717948718,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05714,35,0.9578958,97.09401709401709,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05786,36,0.9511538,97.00854700854701,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05651,37,0.9509156,96.92307692307692,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05674,38,0.9494329,96.83760683760684,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05766,39,0.93473375,96.75213675213675,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05647,40,0.9321048,96.66666666666667,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-02513,41,0.92371637,96.58119658119658,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-03127,42,0.9101442,96.4957264957265,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05773,43,0.8895321,96.41025641025641,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-01653,44,0.8873366,96.32478632478633,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05540,45,0.881872,96.23931623931624,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05842,46,0.8788725,96.15384615384616,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05824,47,0.86392695,96.06837606837607,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05671,48,0.8638771,95.98290598290599,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-00182,49,0.8546524,95.8974358974359,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05746,50,0.8439078,95.81196581196582,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05316,51,0.8376708,95.72649572649573,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-04333,52,0.81333625,95.64102564102565,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-03928,53,0.8072525,95.55555555555556,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-04872,54,0.7860394,95.47008547008548,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05147,55,0.7748217,95.38461538461539,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-05579,56,0.768892,95.2991452991453,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05488,57,0.76348287,95.2136752136752,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-05467,58,0.76256424,95.12820512820512,Kritik - İlk %5,Acil analist incelemesi,1,1,İflas Etti
+ESIK-04197,59,0.7023801,95.04273504273503,Kritik - İlk %5,Acil analist incelemesi,1,0,İflas Etmedi
+ESIK-02300,60,0.6904284,94.95726495726495,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05648,61,0.6670499,94.87179487179486,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-01125,62,0.6446281,94.78632478632478,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-02078,63,0.6425788,94.70085470085469,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05514,64,0.63574857,94.61538461538461,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05454,65,0.6295186,94.52991452991452,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05820,66,0.6243086,94.44444444444444,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05458,67,0.59385926,94.35897435897435,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05464,68,0.58076227,94.27350427350427,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05783,69,0.5677418,94.18803418803418,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-02660,70,0.5614001,94.1025641025641,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-02980,71,0.54674304,94.01709401709401,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00424,72,0.5399301,93.93162393162393,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05541,73,0.5308211,93.84615384615384,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05477,74,0.53061336,93.76068376068376,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05809,75,0.489747,93.67521367521367,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-05735,76,0.4875457,93.58974358974359,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-02183,77,0.48680896,93.5042735042735,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03983,78,0.47606012,93.41880341880342,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-04066,79,0.47118196,93.33333333333333,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00239,80,0.46663833,93.24786324786325,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00674,81,0.45888877,93.16239316239316,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03277,82,0.45141962,93.07692307692308,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05542,83,0.4434447,92.99145299145299,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-00053,84,0.43229005,92.90598290598291,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03369,85,0.43037775,92.82051282051282,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05799,86,0.41674042,92.73504273504274,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-01050,87,0.40889287,92.64957264957265,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00760,88,0.40361026,92.56410256410257,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05621,89,0.40274903,92.47863247863248,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-03623,90,0.39535645,92.3931623931624,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05487,91,0.38053823,92.3076923076923,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-02800,92,0.3780418,92.22222222222223,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05596,93,0.34815252,92.13675213675214,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-03080,94,0.34323335,92.05128205128204,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05640,95,0.3332489,91.96581196581197,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-04136,96,0.32335672,91.88034188034187,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-01377,97,0.31702933,91.7948717948718,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-04717,98,0.3053732,91.7094017094017,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-01891,99,0.30499795,91.62393162393163,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03525,100,0.30498648,91.53846153846153,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00818,101,0.30227625,91.45299145299145,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03549,102,0.30158532,91.36752136752136,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05572,103,0.28931883,91.28205128205128,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-03676,104,0.28423244,91.19658119658119,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03359,105,0.27910283,91.11111111111111,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05299,106,0.26946723,91.02564102564102,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05166,107,0.267688,90.94017094017094,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00448,108,0.257397,90.85470085470085,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03009,109,0.2506047,90.76923076923077,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-01688,110,0.2430374,90.68376068376068,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03439,111,0.23524381,90.5982905982906,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-04473,112,0.22882771,90.51282051282051,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05551,113,0.22846873,90.42735042735043,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-00873,114,0.2172529,90.34188034188034,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-03323,115,0.21534218,90.25641025641026,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-00700,116,0.20648776,90.17094017094017,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,0,İflas Etmedi
+ESIK-05597,117,0.20226178,90.08547008547009,Yüksek - %5 ile %10,Öncelikli analist incelemesi,1,1,İflas Etti
+ESIK-00745,118,0.20049886,90.0,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05063,119,0.1982939,89.91452991452992,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05157,120,0.18594272,89.82905982905983,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02848,121,0.18440963,89.74358974358975,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00821,122,0.18374817,89.65811965811966,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03137,123,0.18199947,89.57264957264958,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02563,124,0.17921938,89.48717948717949,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05511,125,0.17390521,89.40170940170941,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-03144,126,0.1738562,89.31623931623932,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01598,127,0.16055912,89.23076923076924,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05106,128,0.15237549,89.14529914529915,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04259,129,0.15210474,89.05982905982906,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03466,130,0.14492074,88.97435897435896,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05764,131,0.13634908,88.88888888888889,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-05768,132,0.13482438,88.8034188034188,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-02407,133,0.12674028,88.71794871794872,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00089,134,0.12602066,88.63247863247862,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05641,135,0.12538637,88.54700854700855,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-03507,136,0.124225825,88.46153846153845,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03102,137,0.123149976,88.37606837606837,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01322,138,0.122927934,88.29059829059828,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04771,139,0.12272488,88.2051282051282,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04613,140,0.12257052,88.11965811965811,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03347,141,0.118905686,88.03418803418803,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03630,142,0.117943846,87.94871794871794,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01689,143,0.117371805,87.86324786324786,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03734,144,0.11554881,87.77777777777777,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01504,145,0.110426016,87.6923076923077,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05287,146,0.11019187,87.6068376068376,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04695,147,0.10868287,87.52136752136752,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03321,148,0.10643958,87.43589743589743,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00551,149,0.10567415,87.35042735042735,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01833,150,0.102847934,87.26495726495726,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03906,151,0.10219817,87.17948717948718,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03378,152,0.09724929,87.09401709401709,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03376,153,0.09436764,87.00854700854701,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04621,154,0.0938441,86.92307692307692,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00804,155,0.09016246,86.83760683760684,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03064,156,0.08905656,86.75213675213675,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04753,157,0.08792019,86.66666666666667,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01206,158,0.08697582,86.58119658119658,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01063,159,0.08675231,86.4957264957265,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00012,160,0.08610522,86.41025641025641,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03916,161,0.08021592,86.32478632478633,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02438,162,0.079772756,86.23931623931624,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03585,163,0.07626328,86.15384615384616,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00098,164,0.07334808,86.06837606837607,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01359,165,0.07241564,85.98290598290599,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05518,166,0.0720741,85.8974358974359,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-02836,167,0.07118761,85.8119658119658,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04145,168,0.0682104,85.72649572649573,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03978,169,0.06757981,85.64102564102564,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00839,170,0.06722114,85.55555555555556,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00478,171,0.065485634,85.47008547008546,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05271,172,0.06544253,85.38461538461539,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01779,173,0.065216355,85.2991452991453,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05079,174,0.06444881,85.21367521367522,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01677,175,0.0641936,85.12820512820512,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03284,176,0.062431052,85.04273504273505,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05619,177,0.061828908,84.95726495726495,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-02114,178,0.06116347,84.87179487179488,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02826,179,0.06032595,84.78632478632478,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01855,180,0.059783403,84.7008547008547,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03422,181,0.059272476,84.61538461538461,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00835,182,0.059042584,84.52991452991454,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03250,183,0.058856282,84.44444444444444,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00962,184,0.058097113,84.35897435897436,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02437,185,0.057724312,84.27350427350427,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02319,186,0.057623167,84.1880341880342,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03083,187,0.057106446,84.1025641025641,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04787,188,0.056794662,84.01709401709402,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04779,189,0.056583874,83.93162393162393,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02724,190,0.05578466,83.84615384615385,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01826,191,0.054650985,83.76068376068376,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01454,192,0.05396371,83.67521367521368,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01678,193,0.052899424,83.58974358974359,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05566,194,0.052580353,83.50427350427351,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-04734,195,0.05217704,83.41880341880342,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02845,196,0.051844273,83.33333333333334,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01602,197,0.051060818,83.24786324786325,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03052,198,0.050660543,83.16239316239317,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01385,199,0.049888276,83.07692307692308,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01287,200,0.049824227,82.991452991453,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01604,201,0.048989158,82.90598290598291,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01738,202,0.04894094,82.82051282051283,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02423,203,0.04884649,82.73504273504273,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03095,204,0.048589006,82.64957264957265,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03029,205,0.047910076,82.56410256410255,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03146,206,0.047522806,82.47863247863248,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00309,207,0.046708457,82.39316239316238,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01045,208,0.046609413,82.3076923076923,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04515,209,0.04649978,82.22222222222221,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04481,210,0.04587199,82.13675213675214,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04546,211,0.04520387,82.05128205128204,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03661,212,0.04511783,81.96581196581197,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02436,213,0.045012005,81.88034188034187,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04061,214,0.044710107,81.7948717948718,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03974,215,0.044274855,81.7094017094017,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05152,216,0.044001244,81.62393162393163,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02033,217,0.043490477,81.53846153846153,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04687,218,0.04329685,81.45299145299145,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01954,219,0.042942822,81.36752136752136,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04630,220,0.041269083,81.28205128205128,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00246,221,0.041260894,81.19658119658119,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02327,222,0.041037574,81.11111111111111,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02439,223,0.04077419,81.02564102564102,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03657,224,0.040771224,80.94017094017094,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02524,225,0.04071142,80.85470085470085,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05007,226,0.03973766,80.76923076923077,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-01296,227,0.03960833,80.68376068376068,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-02565,228,0.039393194,80.5982905982906,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-04946,229,0.03829955,80.51282051282051,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05727,230,0.03815441,80.42735042735043,Orta - %10 ile %20,Yakın izleme listesi,0,1,İflas Etti
+ESIK-03786,231,0.03739603,80.34188034188034,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-05381,232,0.037333004,80.25641025641026,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00131,233,0.03696854,80.17094017094017,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-03475,234,0.036842577,80.08547008547009,Orta - %10 ile %20,Yakın izleme listesi,0,0,İflas Etmedi
+ESIK-00999,235,0.036679648,80.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01648,236,0.036432065,79.91452991452992,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00085,237,0.036208987,79.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01801,238,0.035992138,79.74358974358975,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04999,239,0.03570297,79.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03765,240,0.035500992,79.57264957264957,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03143,241,0.035490207,79.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01762,242,0.035440784,79.4017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01735,243,0.033953145,79.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00415,244,0.033845477,79.23076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01791,245,0.033559497,79.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05247,246,0.033505417,79.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01642,247,0.03292992,78.97435897435898,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03973,248,0.032900915,78.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01439,249,0.03259001,78.80341880341881,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02854,250,0.032480866,78.71794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02185,251,0.032408666,78.63247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02229,252,0.031872094,78.54700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01889,253,0.031146128,78.46153846153847,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02285,254,0.031054227,78.37606837606837,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04610,255,0.030380134,78.2905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03269,256,0.030291114,78.2051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03039,257,0.029872656,78.11965811965813,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01337,258,0.02981248,78.03418803418803,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04122,259,0.029684655,77.94871794871796,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00864,260,0.029520754,77.86324786324786,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03043,261,0.02920181,77.77777777777779,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04081,262,0.029037263,77.6923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00257,263,0.028733142,77.60683760683762,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01790,264,0.028209057,77.52136752136752,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02665,265,0.028082505,77.43589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01999,266,0.02762598,77.35042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00234,267,0.027592395,77.26495726495727,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02290,268,0.027019052,77.17948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03076,269,0.026579343,77.0940170940171,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03163,270,0.026026063,77.00854700854701,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02552,271,0.02564254,76.92307692307693,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01659,272,0.02558772,76.83760683760684,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05125,273,0.025354166,76.75213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03077,274,0.02503998,76.66666666666667,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04103,275,0.02483976,76.5811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01175,276,0.024317974,76.49572649572649,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05170,277,0.024175929,76.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00659,278,0.023298342,76.32478632478632,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03129,279,0.023151029,76.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04668,280,0.022855433,76.15384615384615,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00811,281,0.022840854,76.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04318,282,0.022685638,75.98290598290598,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04571,283,0.022395125,75.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00319,284,0.022338998,75.8119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00605,285,0.021921543,75.72649572649573,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00356,286,0.021825666,75.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02708,287,0.021811439,75.55555555555556,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01262,288,0.021638377,75.47008547008546,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04098,289,0.021410255,75.38461538461539,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03454,290,0.021159934,75.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04870,291,0.021023259,75.21367521367522,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05196,292,0.020757569,75.12820512820512,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03812,293,0.020564916,75.04273504273505,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00359,294,0.020320902,74.95726495726495,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05033,295,0.020048326,74.87179487179488,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03162,296,0.019893777,74.78632478632478,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03566,297,0.019749988,74.7008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00842,298,0.019716663,74.61538461538461,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00166,299,0.019391695,74.52991452991454,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04003,300,0.0192445,74.44444444444444,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01148,301,0.018901573,74.35897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00242,302,0.01881446,74.27350427350427,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02179,303,0.018771244,74.1880341880342,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04858,304,0.018646466,74.1025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03293,305,0.018352462,74.01709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01742,306,0.018182809,73.93162393162393,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01798,307,0.018171614,73.84615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05052,308,0.018082984,73.76068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03053,309,0.018034972,73.67521367521368,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02704,310,0.01801586,73.58974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00825,311,0.017912721,73.50427350427351,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00920,312,0.017768519,73.4188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04243,313,0.01770023,73.33333333333333,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03869,314,0.01680776,73.24786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02352,315,0.016764876,73.16239316239316,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00004,316,0.016747648,73.07692307692307,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02849,317,0.01670797,72.99145299145299,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04929,318,0.016381253,72.9059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03116,319,0.0163314,72.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01239,320,0.016172003,72.73504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02774,321,0.016159445,72.64957264957265,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04701,322,0.016122453,72.56410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01477,323,0.0161224,72.47863247863248,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03760,324,0.016037159,72.39316239316238,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01366,325,0.01599398,72.3076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05164,326,0.015963975,72.22222222222221,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00452,327,0.015931372,72.13675213675214,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03385,328,0.015867187,72.05128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03121,329,0.015748555,71.96581196581197,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05121,330,0.015739828,71.88034188034187,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02458,331,0.015581335,71.7948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00852,332,0.015519129,71.7094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00095,333,0.015518925,71.62393162393163,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02671,334,0.015493628,71.53846153846153,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02891,335,0.0153711,71.45299145299145,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01941,336,0.015270499,71.36752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00281,337,0.015224774,71.28205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03943,338,0.015101517,71.19658119658119,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01464,339,0.015079142,71.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04025,340,0.015078569,71.02564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00814,341,0.015007783,70.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00895,342,0.014879304,70.85470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03014,343,0.014796721,70.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03809,344,0.014714104,70.68376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00778,345,0.014644735,70.5982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02325,346,0.014618218,70.51282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02888,347,0.014584799,70.42735042735043,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03336,348,0.014480467,70.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03060,349,0.014474424,70.25641025641025,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05286,350,0.014257748,70.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01059,351,0.014151662,70.08547008547008,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02582,352,0.0141176935,70.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00466,353,0.014075122,69.91452991452991,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03212,354,0.013903784,69.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05510,355,0.013824576,69.74358974358974,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-02299,356,0.0137977395,69.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00026,357,0.013791603,69.57264957264957,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00984,358,0.01373177,69.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02948,359,0.01362129,69.4017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00678,360,0.013588323,69.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00945,361,0.013529953,69.23076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02717,362,0.013416018,69.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03859,363,0.013387394,69.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04487,364,0.013353275,68.97435897435898,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04699,365,0.013295357,68.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03955,366,0.013286391,68.80341880341881,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01969,367,0.013205437,68.71794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05359,368,0.013175192,68.63247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04508,369,0.013112598,68.54700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01144,370,0.01305595,68.46153846153847,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01384,371,0.013025762,68.37606837606837,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05341,372,0.012982381,68.2905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01847,373,0.012755728,68.2051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02260,374,0.012726537,68.11965811965813,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04760,375,0.012679233,68.03418803418803,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00100,376,0.012583077,67.94871794871796,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02241,377,0.01244053,67.86324786324786,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00851,378,0.012278236,67.77777777777779,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03902,379,0.012240711,67.6923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02498,380,0.012183965,67.60683760683762,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03416,381,0.012138882,67.52136752136752,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02508,382,0.012018579,67.43589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00882,383,0.011909387,67.35042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02068,384,0.011738249,67.26495726495727,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02900,385,0.011680513,67.17948717948717,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01747,386,0.011560182,67.09401709401709,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02479,387,0.011549017,67.008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04944,388,0.011541589,66.92307692307692,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03418,389,0.011534634,66.83760683760683,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01502,390,0.011500948,66.75213675213675,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03188,391,0.011499711,66.66666666666666,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05180,392,0.0114718955,66.58119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03285,393,0.011437841,66.49572649572649,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00929,394,0.011256931,66.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01243,395,0.011172466,66.32478632478632,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04464,396,0.011134728,66.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01802,397,0.011029522,66.15384615384615,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01785,398,0.010966629,66.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00987,399,0.010957944,65.98290598290598,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01032,400,0.010934377,65.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05772,401,0.010852686,65.8119658119658,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-03951,402,0.010847037,65.72649572649573,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04313,403,0.010842918,65.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05081,404,0.010579229,65.55555555555556,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01947,405,0.010532107,65.47008547008546,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03556,406,0.010481141,65.38461538461539,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04785,407,0.010384654,65.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05209,408,0.010253329,65.21367521367522,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05294,409,0.010247756,65.12820512820512,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03164,410,0.010169379,65.04273504273505,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00616,411,0.010137945,64.95726495726495,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05309,412,0.010117367,64.87179487179488,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00889,413,0.010113585,64.78632478632478,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01077,414,0.010040754,64.7008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00586,415,0.010039332,64.61538461538461,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02626,416,0.010035272,64.52991452991454,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03482,417,0.010033288,64.44444444444444,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02385,418,0.010013519,64.35897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05013,419,0.010003403,64.27350427350427,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02719,420,0.009961514,64.1880341880342,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01601,421,0.009936991,64.1025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03805,422,0.009910203,64.01709401709401,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05189,423,0.009878404,63.931623931623925,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04270,424,0.009862728,63.84615384615384,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04794,425,0.009804857,63.760683760683754,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03518,426,0.009788247,63.67521367521367,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01837,427,0.009777322,63.589743589743584,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04552,428,0.009759399,63.5042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02108,429,0.009719977,63.418803418803414,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05666,430,0.009713465,63.33333333333333,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-03446,431,0.009681383,63.24786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02340,432,0.009604729,63.16239316239316,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04355,433,0.009488823,63.07692307692307,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01982,434,0.009452438,62.99145299145299,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02140,435,0.009431481,62.9059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03889,436,0.009428872,62.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03492,437,0.009422603,62.73504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02157,438,0.009400314,62.64957264957265,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02356,439,0.009383987,62.56410256410256,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01212,440,0.009362951,62.47863247863248,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03548,441,0.009296736,62.39316239316239,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04804,442,0.009246885,62.30769230769231,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04112,443,0.009231303,62.22222222222222,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00001,444,0.009116613,62.136752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01399,445,0.008957554,62.05128205128205,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01369,446,0.008897446,61.965811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04224,447,0.00889447,61.88034188034188,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00788,448,0.008880361,61.794871794871796,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04741,449,0.008872059,61.70940170940171,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00789,450,0.008862718,61.623931623931625,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01091,451,0.008818383,61.53846153846154,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00256,452,0.008816274,61.452991452991455,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00266,453,0.008793561,61.36752136752137,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04601,454,0.008664956,61.282051282051285,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05055,455,0.008660088,61.1965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05139,456,0.008607137,61.111111111111114,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05296,457,0.008575916,61.02564102564103,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03552,458,0.008574421,60.940170940170944,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01362,459,0.008522924,60.85470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03477,460,0.008518964,60.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04126,461,0.008469808,60.68376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01923,462,0.008466373,60.598290598290596,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00975,463,0.008458511,60.51282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03820,464,0.0084577305,60.427350427350426,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02011,465,0.008418154,60.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05326,466,0.008379792,60.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01599,467,0.008375723,60.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03923,468,0.008373312,60.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00138,469,0.008362169,60.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01548,470,0.008338432,59.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01180,471,0.008310955,59.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05484,472,0.008303358,59.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-04852,473,0.00822837,59.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01162,474,0.008227129,59.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03921,475,0.00817895,59.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02679,476,0.008140079,59.401709401709404,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00222,477,0.008083863,59.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01939,478,0.008036863,59.23076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01557,479,0.007889659,59.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02376,480,0.007871689,59.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03909,481,0.00781955,58.97435897435898,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02568,482,0.007760701,58.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03621,483,0.007758047,58.80341880341881,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03313,484,0.0077493265,58.71794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04756,485,0.0077436604,58.63247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04281,486,0.0077071735,58.54700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05631,487,0.007599822,58.46153846153847,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-02549,488,0.0075810184,58.37606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04179,489,0.007531892,58.2905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01612,490,0.007494039,58.20512820512821,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05158,491,0.007469296,58.119658119658126,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01764,492,0.007454841,58.03418803418804,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05133,493,0.0073279347,57.948717948717956,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02016,494,0.0072967485,57.86324786324787,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05354,495,0.007243399,57.77777777777777,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02522,496,0.0072375857,57.692307692307686,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04529,497,0.0072070747,57.6068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04419,498,0.007196452,57.521367521367516,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01898,499,0.007172908,57.43589743589743,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02758,500,0.007171981,57.350427350427346,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03042,501,0.007137046,57.26495726495726,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04274,502,0.0071264375,57.179487179487175,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04219,503,0.0071162623,57.09401709401709,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00244,504,0.007099026,57.008547008547005,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01353,505,0.007082227,56.92307692307692,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05099,506,0.007034298,56.837606837606835,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02000,507,0.007030016,56.75213675213675,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00753,508,0.007003152,56.666666666666664,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04716,509,0.0069242385,56.58119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00538,510,0.0068924213,56.495726495726494,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00475,511,0.0068846215,56.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04292,512,0.006817824,56.324786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05128,513,0.006792865,56.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04653,514,0.0067241513,56.15384615384615,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02730,515,0.0067163436,56.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04230,516,0.006700819,55.98290598290598,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03673,517,0.0066849333,55.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02337,518,0.0066764723,55.81196581196581,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05361,519,0.0066617867,55.72649572649573,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04215,520,0.006626033,55.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03447,521,0.006593959,55.55555555555556,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01329,522,0.006590296,55.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00471,523,0.006542726,55.38461538461539,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02728,524,0.0065307077,55.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00279,525,0.006511009,55.21367521367522,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04377,526,0.0065023317,55.12820512820513,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02415,527,0.006492184,55.042735042735046,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01553,528,0.0064655202,54.95726495726496,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03942,529,0.006454001,54.871794871794876,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02944,530,0.0064310273,54.78632478632479,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00455,531,0.006355053,54.700854700854705,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05753,532,0.0063543664,54.61538461538461,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-02459,533,0.0063203303,54.52991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01897,534,0.006253889,54.44444444444444,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04010,535,0.0062199924,54.35897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00607,536,0.0062100966,54.27350427350427,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03316,537,0.006207552,54.18803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00573,538,0.006185971,54.1025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04302,539,0.006155284,54.01709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04012,540,0.006141933,53.93162393162393,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02243,541,0.0061079566,53.84615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03703,542,0.006100438,53.76068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01541,543,0.0060805157,53.675213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01303,544,0.006033111,53.58974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04341,545,0.0060193352,53.504273504273506,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02209,546,0.006003661,53.41880341880342,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03246,547,0.005992991,53.333333333333336,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02706,548,0.0059793806,53.24786324786325,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03811,549,0.005961187,53.162393162393165,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04578,550,0.005905146,53.07692307692308,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02269,551,0.005887791,52.991452991452995,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04367,552,0.00588778,52.90598290598291,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01592,553,0.0058547575,52.820512820512825,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01467,554,0.0058333976,52.73504273504274,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04953,555,0.005801319,52.649572649572654,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00930,556,0.0057997624,52.56410256410257,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00529,557,0.005797959,52.478632478632484,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04825,558,0.0057878667,52.3931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04598,559,0.0057181315,52.307692307692314,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03986,560,0.005704284,52.22222222222223,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00097,561,0.0056978865,52.13675213675214,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04282,562,0.005643685,52.05128205128206,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01266,563,0.0056389747,51.96581196581197,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04535,564,0.0056316108,51.88034188034189,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04384,565,0.005583445,51.7948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01533,566,0.0055579445,51.70940170940172,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02777,567,0.0055544847,51.62393162393163,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03142,568,0.0054364824,51.53846153846153,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04251,569,0.0054354635,51.45299145299145,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01108,570,0.005426241,51.36752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03586,571,0.005372912,51.28205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01699,572,0.0052828323,51.19658119658119,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04400,573,0.005249142,51.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03290,574,0.0052135014,51.02564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01293,575,0.005189275,50.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01423,576,0.005181384,50.85470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04927,577,0.0051768804,50.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02533,578,0.0051353094,50.68376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03072,579,0.0050864997,50.598290598290596,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04236,580,0.0050724316,50.51282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04704,581,0.005056178,50.427350427350426,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02641,582,0.0050385417,50.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04793,583,0.0049796463,50.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01480,584,0.004969611,50.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05322,585,0.0048926044,50.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03766,586,0.0048803156,50.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05136,587,0.004879324,49.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04711,588,0.004845642,49.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03931,589,0.004789845,49.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04022,590,0.0047860416,49.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04169,591,0.004740727,49.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01416,592,0.004726204,49.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04089,593,0.004693166,49.401709401709404,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03488,594,0.0046620416,49.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02064,595,0.004635466,49.23076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04966,596,0.004627521,49.14529914529914,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05167,597,0.0046242326,49.059829059829056,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01173,598,0.004620663,48.97435897435897,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04393,599,0.0045587937,48.888888888888886,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05423,600,0.004558545,48.8034188034188,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01182,601,0.0045527155,48.717948717948715,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01498,602,0.004545074,48.63247863247863,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02500,603,0.0045243087,48.547008547008545,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03071,604,0.0045181364,48.46153846153846,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03874,605,0.004428412,48.376068376068375,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02008,606,0.0043956577,48.29059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00486,607,0.004383466,48.205128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01280,608,0.00435956,48.11965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05062,609,0.0043513966,48.034188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05101,610,0.0043228404,47.94871794871795,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01978,611,0.004314565,47.863247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01310,612,0.004303626,47.77777777777778,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02250,613,0.004287467,47.69230769230769,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04807,614,0.004276367,47.6068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03237,615,0.0042736833,47.521367521367516,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05233,616,0.0042260615,47.43589743589743,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00022,617,0.004204587,47.350427350427346,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03147,618,0.0041785915,47.26495726495726,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02835,619,0.004146352,47.179487179487175,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02080,620,0.004118649,47.09401709401709,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02485,621,0.0041178023,47.008547008547005,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00994,622,0.0041159643,46.92307692307692,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00453,623,0.004056574,46.837606837606835,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04682,624,0.00405459,46.75213675213675,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01934,625,0.0040347516,46.666666666666664,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03417,626,0.003993721,46.58119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04241,627,0.003991698,46.495726495726494,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01375,628,0.003921326,46.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00080,629,0.0039116116,46.324786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00662,630,0.003884864,46.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02116,631,0.0038507166,46.15384615384615,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00493,632,0.003830434,46.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05460,633,0.0038276368,45.98290598290598,Düşük - %20 sonrası,Rutin izleme,0,1,İflas Etti
+ESIK-03512,634,0.0038038509,45.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02047,635,0.0037934193,45.81196581196581,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01771,636,0.003774933,45.72649572649573,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02877,637,0.0037747517,45.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03345,638,0.003752544,45.55555555555556,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02889,639,0.0037395267,45.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02773,640,0.0037393048,45.38461538461539,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04006,641,0.0037350669,45.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01252,642,0.0037233022,45.21367521367522,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04385,643,0.0037068636,45.12820512820513,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00268,644,0.0036913778,45.042735042735046,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03065,645,0.003672122,44.95726495726496,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02908,646,0.003668779,44.871794871794876,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01431,647,0.0036520825,44.78632478632479,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03557,648,0.0036401264,44.700854700854705,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03109,649,0.0036158862,44.61538461538462,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00625,650,0.003596508,44.52991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05406,651,0.003581097,44.44444444444444,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03175,652,0.0035682365,44.35897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02601,653,0.0035617894,44.27350427350427,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04176,654,0.0035328467,44.18803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04517,655,0.0035114717,44.1025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00043,656,0.0035104556,44.01709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00127,657,0.0035017508,43.93162393162393,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00209,658,0.0034987323,43.84615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03957,659,0.0034704283,43.76068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03263,660,0.0034688062,43.675213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03123,661,0.0034631914,43.58974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00561,662,0.0034603241,43.504273504273506,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03361,663,0.003459862,43.41880341880342,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05212,664,0.003453855,43.333333333333336,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01946,665,0.0034506002,43.24786324786325,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01492,666,0.0034343677,43.162393162393165,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04132,667,0.0034198768,43.07692307692308,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04646,668,0.0034170614,42.991452991452995,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04368,669,0.003392984,42.9059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02932,670,0.0033865615,42.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01552,671,0.0033859515,42.73504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03354,672,0.0033823184,42.64957264957265,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04146,673,0.0033744178,42.56410256410256,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04477,674,0.0033628116,42.47863247863248,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03160,675,0.0033492914,42.39316239316239,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02613,676,0.0033472404,42.30769230769231,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00015,677,0.003345855,42.22222222222222,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05264,678,0.0033447437,42.136752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03202,679,0.0033352075,42.05128205128205,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00792,680,0.003329256,41.965811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03992,681,0.003322919,41.88034188034188,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00285,682,0.003318664,41.794871794871796,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05404,683,0.003317229,41.70940170940171,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02584,684,0.0033136175,41.623931623931625,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04124,685,0.003289613,41.53846153846154,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04912,686,0.0032762226,41.452991452991455,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02014,687,0.0032578586,41.36752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00875,688,0.0032538706,41.28205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04430,689,0.0032510245,41.19658119658119,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03074,690,0.0032505644,41.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02365,691,0.0032470222,41.02564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03729,692,0.0032460515,40.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04408,693,0.0032369155,40.85470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03249,694,0.0032025124,40.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02404,695,0.0032001277,40.68376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01317,696,0.0031597957,40.598290598290596,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00502,697,0.003129778,40.51282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03963,698,0.0031204892,40.427350427350426,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02278,699,0.0031164763,40.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04184,700,0.003113475,40.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02531,701,0.003084635,40.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02331,702,0.0030726474,40.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00633,703,0.0030508603,40.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01426,704,0.0030494146,39.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03227,705,0.0030399489,39.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04447,706,0.0030291064,39.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04401,707,0.003024282,39.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00229,708,0.0030207958,39.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03633,709,0.0030081302,39.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04712,710,0.0030042701,39.401709401709404,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04889,711,0.0030019174,39.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04531,712,0.0029932726,39.23076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04958,713,0.0029917106,39.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05249,714,0.0029845892,39.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03258,715,0.0029823808,38.97435897435898,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03758,716,0.002970387,38.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03296,717,0.002966282,38.80341880341881,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05042,718,0.002961771,38.71794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04337,719,0.0029443898,38.63247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01271,720,0.0029403584,38.54700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02121,721,0.002935545,38.46153846153847,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05227,722,0.002926957,38.37606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02017,723,0.0029228064,38.2905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03400,724,0.0029221978,38.205128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04173,725,0.0029142587,38.11965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04459,726,0.00288083,38.034188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04354,727,0.0028778936,37.94871794871795,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01047,728,0.002876918,37.863247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02678,729,0.002875332,37.77777777777778,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02881,730,0.0028731604,37.69230769230769,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01560,731,0.0028649427,37.60683760683761,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03848,732,0.0028618851,37.52136752136752,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05319,733,0.002847286,37.43589743589744,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04409,734,0.0028397904,37.35042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01641,735,0.002835044,37.26495726495727,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00855,736,0.0028082565,37.17948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04289,737,0.002794637,37.0940170940171,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00673,738,0.0027860738,37.00854700854701,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04416,739,0.0027802652,36.92307692307693,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02640,740,0.002765329,36.83760683760684,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00558,741,0.0027628161,36.75213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05102,742,0.002760694,36.666666666666664,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02919,743,0.002746854,36.58119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03705,744,0.0027385226,36.495726495726494,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02892,745,0.0027348083,36.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00272,746,0.0026982068,36.324786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00748,747,0.0026735577,36.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01154,748,0.0026690708,36.15384615384615,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02442,749,0.0026669952,36.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04853,750,0.0026662303,35.98290598290598,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04304,751,0.002662481,35.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05143,752,0.0026545539,35.81196581196581,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03763,753,0.002639641,35.72649572649573,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04123,754,0.0026333528,35.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02545,755,0.0026316626,35.55555555555556,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04921,756,0.0026181727,35.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04279,757,0.0026146327,35.38461538461539,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05140,758,0.002603922,35.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04120,759,0.0025996654,35.21367521367522,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00544,760,0.0025953837,35.128205128205124,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02474,761,0.002583917,35.04273504273504,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03092,762,0.0025793272,34.957264957264954,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01919,763,0.0025587645,34.87179487179487,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03967,764,0.0025488907,34.78632478632478,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02343,765,0.002541029,34.7008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04115,766,0.0025398,34.61538461538461,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03217,767,0.002537653,34.52991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04977,768,0.0025375169,34.44444444444444,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01053,769,0.0025293615,34.35897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00317,770,0.0025235994,34.27350427350427,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00278,771,0.0025046996,34.18803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05126,772,0.0024998626,34.1025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04298,773,0.0024966197,34.01709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03436,774,0.0024688367,33.93162393162393,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03724,775,0.0024685115,33.84615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01643,776,0.002466949,33.76068376068376,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05116,777,0.0024535344,33.675213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00395,778,0.0024392202,33.589743589743584,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04841,779,0.0024290797,33.5042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02569,780,0.002414046,33.418803418803414,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00709,781,0.0023965335,33.33333333333333,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01436,782,0.0023911474,33.24786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03091,783,0.0023663999,33.16239316239316,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00932,784,0.002365299,33.07692307692307,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00543,785,0.0023604229,32.99145299145299,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01213,786,0.0023569681,32.9059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04413,787,0.002343158,32.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02466,788,0.0023399934,32.73504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05386,789,0.0023343475,32.64957264957265,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01257,790,0.0023231714,32.56410256410256,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04985,791,0.0023228354,32.47863247863248,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01731,792,0.0023220112,32.39316239316239,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02931,793,0.0023176519,32.30769230769231,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02925,794,0.002292051,32.22222222222222,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03730,795,0.0022835592,32.136752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00467,796,0.002273477,32.05128205128205,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03561,797,0.002271572,31.965811965811962,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00118,798,0.002244463,31.880341880341877,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00708,799,0.0022331073,31.794871794871792,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03364,800,0.0022198777,31.709401709401707,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01713,801,0.0022197287,31.62393162393162,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02656,802,0.002218294,31.538461538461537,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02703,803,0.0022100715,31.45299145299145,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03381,804,0.0022029202,31.367521367521366,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02666,805,0.0022017162,31.28205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00489,806,0.0021943424,31.196581196581196,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02599,807,0.0021909822,31.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03438,808,0.002189915,31.025641025641026,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04342,809,0.002159368,30.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03519,810,0.0021546758,30.854700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02223,811,0.002153415,30.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00074,812,0.0021530832,30.683760683760685,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03200,813,0.0021485598,30.5982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04199,814,0.0021413858,30.512820512820515,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04593,815,0.0021333394,30.427350427350426,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00208,816,0.0020835695,30.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05122,817,0.002052493,30.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05415,818,0.002048509,30.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01554,819,0.0020480158,30.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02403,820,0.0020369047,30.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05149,821,0.0020335498,29.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00396,822,0.0020171287,29.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01495,823,0.0020061543,29.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02555,824,0.0020060055,29.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03756,825,0.0020006408,29.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04139,826,0.0019910622,29.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04248,827,0.0019903232,29.401709401709404,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03571,828,0.001986835,29.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01364,829,0.001981305,29.230769230769234,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03031,830,0.0019571558,29.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04801,831,0.0019396667,29.059829059829063,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02342,832,0.0019339841,28.974358974358978,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04052,833,0.0019311971,28.888888888888886,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04829,834,0.0019296602,28.8034188034188,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04379,835,0.0019277097,28.717948717948715,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00011,836,0.0019265927,28.63247863247863,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00290,837,0.0019165749,28.547008547008545,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00294,838,0.0019033119,28.46153846153846,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03696,839,0.0019024296,28.376068376068375,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05338,840,0.0018978032,28.29059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01331,841,0.0018957785,28.205128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00801,842,0.0018913075,28.11965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02754,843,0.0018803083,28.034188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00435,844,0.001878531,27.94871794871795,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01583,845,0.0018764365,27.863247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01030,846,0.0018729799,27.77777777777778,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02372,847,0.0018655752,27.692307692307693,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03694,848,0.0018502217,27.60683760683761,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01356,849,0.0018474453,27.521367521367523,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01203,850,0.0018440499,27.435897435897438,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02794,851,0.001843864,27.350427350427353,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01608,852,0.0018332973,27.264957264957264,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03056,853,0.0018326743,27.17948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00905,854,0.0018298808,27.094017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03559,855,0.001824078,27.00854700854701,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02915,856,0.0018195896,26.923076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04109,857,0.0018086039,26.837606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01179,858,0.0018029227,26.752136752136753,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04188,859,0.0017756628,26.666666666666668,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02621,860,0.0017750536,26.581196581196583,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03699,861,0.0017750129,26.495726495726498,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01596,862,0.0017673663,26.410256410256412,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05277,863,0.0017570448,26.324786324786327,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02058,864,0.001756253,26.239316239316242,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03113,865,0.0017530341,26.153846153846157,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04420,866,0.0017459415,26.06837606837607,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01551,867,0.0017365548,25.982905982905987,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01892,868,0.0017246323,25.8974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01741,869,0.0017135603,25.811965811965816,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03961,870,0.001687304,25.726495726495724,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02478,871,0.0016836148,25.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05130,872,0.0016818133,25.555555555555554,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03435,873,0.0016617909,25.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01433,874,0.001653598,25.384615384615383,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02616,875,0.0016489279,25.299145299145298,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01804,876,0.0016473979,25.213675213675213,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01543,877,0.001641511,25.128205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01857,878,0.0016318986,25.042735042735043,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03169,879,0.0016313284,24.957264957264957,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01863,880,0.0016062296,24.871794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02916,881,0.0016060545,24.786324786324787,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03884,882,0.001605537,24.700854700854702,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02972,883,0.0015978676,24.615384615384617,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04951,884,0.0015973725,24.529914529914528,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04375,885,0.0015944502,24.444444444444443,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01895,886,0.0015866812,24.358974358974358,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03587,887,0.00158154,24.273504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02445,888,0.0015803974,24.188034188034187,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04330,889,0.0015649474,24.102564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00406,890,0.0015605445,24.017094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01581,891,0.0015565916,23.931623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03877,892,0.0015548866,23.846153846153847,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02141,893,0.0015526504,23.760683760683758,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02070,894,0.0015382217,23.675213675213673,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01332,895,0.001538156,23.589743589743588,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05263,896,0.0015291572,23.504273504273502,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04669,897,0.0015203905,23.418803418803417,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02809,898,0.0015162757,23.333333333333332,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01483,899,0.00151417,23.247863247863247,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04692,900,0.0015124903,23.162393162393162,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03033,901,0.0015039673,23.076923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02329,902,0.0015030826,22.99145299145299,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01914,903,0.0015009635,22.905982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03395,904,0.0014959117,22.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03562,905,0.001487795,22.735042735042736,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03001,906,0.001487302,22.64957264957265,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04443,907,0.0014838673,22.564102564102566,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01126,908,0.0014779198,22.47863247863248,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00615,909,0.0014744427,22.393162393162395,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00019,910,0.0014678304,22.30769230769231,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00891,911,0.0014613952,22.22222222222222,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01277,912,0.001461135,22.136752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00440,913,0.0014452698,22.05128205128205,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02607,914,0.0014304135,21.965811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01372,915,0.0014298876,21.88034188034188,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04651,916,0.0014290083,21.794871794871796,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04476,917,0.0014231516,21.70940170940171,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00862,918,0.0014220332,21.623931623931625,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04632,919,0.0014117493,21.53846153846154,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00747,920,0.0014103343,21.45299145299145,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01198,921,0.0014081071,21.367521367521366,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03538,922,0.0014068392,21.28205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04965,923,0.0014065371,21.196581196581196,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03672,924,0.0014049956,21.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02367,925,0.0013965892,21.025641025641026,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00420,926,0.0013959057,20.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04516,927,0.0013898661,20.854700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01865,928,0.0013869036,20.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01197,929,0.0013773344,20.68376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01282,930,0.0013668955,20.598290598290596,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04445,931,0.0013658011,20.51282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03334,932,0.0013604311,20.427350427350426,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02164,933,0.0013536091,20.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05427,934,0.0013481342,20.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01942,935,0.0013470883,20.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05045,936,0.001346031,20.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00385,937,0.001341121,20.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04690,938,0.0013350067,19.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03330,939,0.001333457,19.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01478,940,0.0013280577,19.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03030,941,0.0013251915,19.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03844,942,0.0013124027,19.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00102,943,0.001301982,19.48717948717949,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04955,944,0.0012983555,19.401709401709404,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01414,945,0.001295744,19.31623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04167,946,0.0012942379,19.230769230769234,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01486,947,0.0012922671,19.14529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02581,948,0.0012785754,19.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01759,949,0.0012691227,18.974358974358974,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01403,950,0.0012670229,18.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00143,951,0.001264758,18.803418803418804,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00379,952,0.0012644238,18.71794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03823,953,0.0012570765,18.632478632478634,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00397,954,0.0012430376,18.54700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02713,955,0.0012412504,18.461538461538463,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02306,956,0.001240181,18.37606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04394,957,0.0012244234,18.29059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02850,958,0.0012225279,18.205128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00608,959,0.0012181324,18.11965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02512,960,0.0012051368,18.034188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01952,961,0.0012043816,17.94871794871795,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04873,962,0.0011890336,17.863247863247864,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01575,963,0.0011873302,17.77777777777778,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04402,964,0.0011863078,17.692307692307693,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02603,965,0.0011806514,17.60683760683761,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05270,966,0.001178773,17.52136752136752,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04564,967,0.0011665362,17.435897435897434,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00168,968,0.0011590758,17.35042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01695,969,0.0011582993,17.264957264957264,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00934,970,0.0011551616,17.17948717948718,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04878,971,0.0011540409,17.094017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02296,972,0.0011505454,17.00854700854701,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00196,973,0.0011498716,16.923076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01389,974,0.0011453917,16.837606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03771,975,0.0011384257,16.75213675213675,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00622,976,0.0011256379,16.666666666666664,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05254,977,0.0011209052,16.58119658119658,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02354,978,0.0011166034,16.495726495726494,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00702,979,0.0011106156,16.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00613,980,0.0011063642,16.324786324786324,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01693,981,0.0011016589,16.23931623931624,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03575,982,0.0010918461,16.153846153846153,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00159,983,0.0010902482,16.068376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04513,984,0.0010695506,15.982905982905981,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03602,985,0.0010678458,15.897435897435896,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04152,986,0.0010628242,15.81196581196581,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04483,987,0.0010514691,15.726495726495726,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04182,988,0.0010502718,15.64102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00344,989,0.0010442352,15.555555555555555,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01906,990,0.0010441083,15.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01521,991,0.0010400341,15.384615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03059,992,0.0010377765,15.2991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00049,993,0.0010330206,15.213675213675213,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00157,994,0.0010283622,15.128205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04604,995,0.0010242186,15.042735042735043,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05091,996,0.0010061973,14.957264957264957,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01589,997,0.0009968332,14.871794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02588,998,0.000995148,14.786324786324787,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00571,999,0.0009944461,14.700854700854702,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05051,1000,0.000992956,14.615384615384617,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01703,1001,0.000992537,14.529914529914532,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05109,1002,0.0009895312,14.444444444444443,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00793,1003,0.0009857039,14.358974358974358,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00231,1004,0.000984572,14.273504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03205,1005,0.0009827286,14.188034188034187,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04053,1006,0.0009816249,14.102564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01011,1007,0.00097467046,14.017094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01749,1008,0.0009721479,13.931623931623932,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02454,1009,0.0009720687,13.846153846153847,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01871,1010,0.0009706098,13.760683760683762,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02383,1011,0.0009673882,13.675213675213676,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02460,1012,0.0009666778,13.58974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01636,1013,0.0009656238,13.504273504273504,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04526,1014,0.0009595371,13.418803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03996,1015,0.0009516276,13.333333333333334,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02347,1016,0.0009512863,13.247863247863249,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02653,1017,0.00094686146,13.162393162393164,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04185,1018,0.00094137515,13.076923076923078,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02761,1019,0.0009410348,12.991452991452993,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04800,1020,0.00093718513,12.905982905982908,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01025,1021,0.00093405443,12.82051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03577,1022,0.0009276408,12.735042735042734,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03460,1023,0.00092590216,12.649572649572649,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04880,1024,0.00092383346,12.564102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02988,1025,0.00091802696,12.478632478632479,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01254,1026,0.0009102689,12.393162393162394,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01184,1027,0.0009099924,12.307692307692308,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03551,1028,0.0009048015,12.222222222222221,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01336,1029,0.0009039488,12.136752136752136,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03297,1030,0.00090083067,12.051282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00884,1031,0.0008944622,11.965811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00092,1032,0.0008831654,11.880341880341879,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01306,1033,0.00088201696,11.794871794871794,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00500,1034,0.0008765198,11.709401709401709,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01959,1035,0.000868803,11.623931623931623,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02191,1036,0.000861833,11.538461538461538,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04105,1037,0.0008534977,11.452991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01242,1038,0.00085159193,11.367521367521368,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00980,1039,0.0008391688,11.282051282051283,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03022,1040,0.0008367307,11.196581196581198,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03619,1041,0.00082963466,11.11111111111111,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02609,1042,0.0008275703,11.025641025641026,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04939,1043,0.0008231613,10.94017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03026,1044,0.0008229782,10.854700854700855,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01977,1045,0.0008224138,10.76923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01040,1046,0.00081563415,10.683760683760683,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01188,1047,0.00081499276,10.598290598290598,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05290,1048,0.00081406836,10.512820512820513,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02154,1049,0.00081163505,10.427350427350428,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00531,1050,0.00079933414,10.34188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01422,1051,0.0007982205,10.256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03037,1052,0.00079728244,10.17094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04665,1053,0.000795377,10.085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01152,1054,0.0007946391,10.0,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00515,1055,0.0007902353,9.914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02288,1056,0.00078997255,9.82905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05428,1057,0.00078997255,9.743589743589745,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04407,1058,0.00078589283,9.65811965811966,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00757,1059,0.0007852337,9.572649572649574,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03404,1060,0.0007800984,9.487179487179487,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02973,1061,0.00077579194,9.401709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00576,1062,0.0007731591,9.316239316239317,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00887,1063,0.00076508266,9.230769230769232,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01446,1064,0.000763096,9.145299145299145,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02242,1065,0.00076242,9.05982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05311,1066,0.0007563983,8.974358974358974,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04231,1067,0.00075103185,8.88888888888889,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05438,1068,0.0007509184,8.803418803418804,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00304,1069,0.0007473828,8.717948717948717,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00165,1070,0.0007397865,8.632478632478632,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00911,1071,0.00073830114,8.547008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02392,1072,0.00073810987,8.461538461538462,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00539,1073,0.0007356728,8.376068376068375,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03746,1074,0.0007331993,8.29059829059829,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02779,1075,0.0007322556,8.205128205128204,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00894,1076,0.00072911306,8.11965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04995,1077,0.00072634424,8.034188034188034,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04831,1078,0.0007261207,7.948717948717948,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05279,1079,0.0007212826,7.863247863247863,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00170,1080,0.0007170465,7.777777777777778,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04766,1081,0.0007103261,7.6923076923076925,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01979,1082,0.00069657346,7.6068376068376065,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04130,1083,0.0006932466,7.521367521367521,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02828,1084,0.0006914018,7.435897435897436,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00340,1085,0.0006834685,7.350427350427351,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05037,1086,0.0006811747,7.264957264957266,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04461,1087,0.0006770587,7.179487179487179,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05420,1088,0.0006750237,7.094017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02578,1089,0.00067257136,7.0085470085470085,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00194,1090,0.0006717911,6.923076923076923,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04713,1091,0.00066808256,6.837606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04451,1092,0.00066630787,6.752136752136752,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03406,1093,0.0006588177,6.666666666666667,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04943,1094,0.000655264,6.581196581196582,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05418,1095,0.0006545771,6.495726495726497,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03764,1096,0.00064985245,6.41025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03118,1097,0.0006467775,6.3247863247863245,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03437,1098,0.00063617754,6.239316239316239,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05096,1099,0.0006324192,6.153846153846154,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01344,1100,0.00062227825,6.068376068376068,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02686,1101,0.00062172074,5.982905982905983,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03762,1102,0.0006212525,5.897435897435897,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04550,1103,0.0006113065,5.811965811965812,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01022,1104,0.0006056767,5.726495726495727,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00948,1105,0.0006036694,5.641025641025641,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03600,1106,0.0006028409,5.555555555555555,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00653,1107,0.000596559,5.47008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01255,1108,0.0005864984,5.384615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04424,1109,0.00058296835,5.299145299145299,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00637,1110,0.0005817484,5.213675213675214,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02448,1111,0.00058142375,5.128205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04366,1112,0.00056844315,5.042735042735043,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03711,1113,0.00053605385,4.957264957264957,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02022,1114,0.0005298281,4.871794871794872,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02878,1115,0.00052533613,4.786324786324787,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03428,1116,0.0005246846,4.700854700854701,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00915,1117,0.00052325346,4.615384615384616,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01157,1118,0.0005232422,4.52991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01774,1119,0.0005188922,4.444444444444445,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03093,1120,0.00051889097,4.358974358974359,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04192,1121,0.00051777146,4.273504273504273,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02945,1122,0.00051615346,4.188034188034187,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04876,1123,0.0004900463,4.102564102564102,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05194,1124,0.0004874948,4.017094017094017,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01788,1125,0.00047498418,3.9316239316239314,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00771,1126,0.0004728729,3.8461538461538463,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00610,1127,0.000465742,3.7606837606837606,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04178,1128,0.0004639025,3.6752136752136755,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03797,1129,0.00046159796,3.5897435897435894,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01610,1130,0.0004600984,3.5042735042735043,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03873,1131,0.0004570063,3.418803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01099,1132,0.00045190364,3.3333333333333335,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02940,1133,0.00045148877,3.2478632478632483,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01112,1134,0.00044907033,3.1623931623931623,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00504,1135,0.00044695547,3.076923076923077,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03468,1136,0.00044571882,2.9914529914529915,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03520,1137,0.00044542152,2.905982905982906,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02263,1138,0.00044414363,2.8205128205128207,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02232,1139,0.00042443018,2.735042735042735,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04353,1140,0.00041343432,2.6495726495726495,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02817,1141,0.00040978694,2.564102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00195,1142,0.00040675083,2.4786324786324787,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01647,1143,0.0004059066,2.3931623931623935,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01484,1144,0.00039497795,2.307692307692308,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04563,1145,0.0003878908,2.2222222222222223,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01008,1146,0.00038525037,2.1367521367521367,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01819,1147,0.0003786204,2.051282051282051,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02959,1148,0.0003773306,1.9658119658119657,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03193,1149,0.0003763278,1.8803418803418803,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03883,1150,0.00037575798,1.7948717948717947,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02007,1151,0.00036457548,1.7094017094017095,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03740,1152,0.0003562428,1.6239316239316242,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02073,1153,0.00034762107,1.5384615384615385,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01278,1154,0.00034696984,1.452991452991453,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04847,1155,0.00034450224,1.3675213675213675,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01276,1156,0.00033711392,1.282051282051282,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-03932,1157,0.00031795105,1.1965811965811968,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02572,1158,0.0003131035,1.1111111111111112,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00410,1159,0.00029517882,1.0256410256410255,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01055,1160,0.00028157115,0.9401709401709402,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04772,1161,0.00027129299,0.8547008547008548,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-05064,1162,0.0002647263,0.7692307692307693,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-02231,1163,0.00025963457,0.6837606837606838,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-04706,1164,0.00024770806,0.5982905982905984,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01196,1165,0.00021506543,0.5128205128205128,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01806,1166,0.00020475918,0.4273504273504274,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00164,1167,0.00020131048,0.3418803418803419,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00802,1168,0.0001875485,0.2564102564102564,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-00927,1169,0.00014783366,0.17094017094017094,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi
+ESIK-01014,1170,0.00014329607,0.08547008547008547,Düşük - %20 sonrası,Rutin izleme,0,0,İflas Etmedi

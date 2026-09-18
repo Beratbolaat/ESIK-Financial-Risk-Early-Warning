@@ -1,0 +1,20 @@
+{
+  "experiment_scope": "Özellikler önceki EDA bulgularından esinlenir. Yeni bağımsız doğrulama veya nested CV değildir.",
+  "production_model_changed": false,
+  "holdout_scored": false,
+  "boundary_checks_passed": true,
+  "mean_metrics": {
+    "engineered_68": {
+      "recall_at_10": 0.7606993006993007,
+      "precision_at_10": 0.5276595744680851,
+      "average_precision": 0.7486655157268713
+    },
+    "raw_64": {
+      "recall_at_10": 0.776037296037296,
+      "precision_at_10": 0.5382978723404255,
+      "average_precision": 0.7505743887226242
+    }
+  },
+  "recall_delta_percentage_points": -1.5337995337995292,
+  "ap_delta": -0.0019088729957528194
+}

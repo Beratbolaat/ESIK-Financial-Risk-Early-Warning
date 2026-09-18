@@ -1,0 +1,7 @@
+{
+  "model": "XGBClassifier",
+  "requested": 400,
+  "actual": 400,
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "retrained": false
+}

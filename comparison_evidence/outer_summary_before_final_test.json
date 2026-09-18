@@ -1,0 +1,26 @@
+{
+  "family": "xgboost",
+  "outer": {
+    "mean_recall_at_10": 0.7915151515151516,
+    "mean_precision_at_10": 0.5489361702127659,
+    "mean_lift_at_10": 7.881470019342359,
+    "mean_average_precision": 0.7458552696822037,
+    "mean_roc_auc": 0.936609226932676,
+    "std_recall_at_10": 0.0275924517995127,
+    "seconds": 54.20405230000324
+  },
+  "raw": {
+    "brier": 0.034448554032687394,
+    "log_loss": 0.139147590237176,
+    "mean_prediction": 0.0732901860732663,
+    "observed_rate": 0.06965811965811966
+  },
+  "calibrated": {
+    "brier": 0.03177616571823639,
+    "log_loss": 0.1206641299962594,
+    "mean_prediction": 0.07156430947519729,
+    "observed_rate": 0.06965811965811966
+  },
+  "calibration_gate": true,
+  "note": "Gate computed without historical test labels; outer folds previously inspected."
+}

@@ -1,0 +1,6719 @@
+{
+  "selected_family": "xgboost",
+  "rows": [
+    {
+      "outer_fold": 2,
+      "model": "xgboost",
+      "recall_at_10": 0.7692307692307693,
+      "precision_at_10": 0.5319148936170213,
+      "lift_at_10": 7.659574468085106,
+      "captured": 50,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7443571370560497,
+      "roc_auc": 0.9510200476905414,
+      "pr_auc_trapezoid": 0.7430036633584824,
+      "accuracy": 0.9583333333333334,
+      "precision": 0.7954545454545454,
+      "recall": 0.5384615384615384,
+      "f1": 0.6422018348623854,
+      "confusion_matrix": [
+        [
+          862,
+          9
+        ],
+        [
+          30,
+          35
+        ]
+      ],
+      "seconds": 12.485903499997221,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 2,
+      "model": "selected_procedure",
+      "recall_at_10": 0.7692307692307693,
+      "precision_at_10": 0.5319148936170213,
+      "lift_at_10": 7.659574468085106,
+      "captured": 50,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7443571370560497,
+      "roc_auc": 0.9510200476905414,
+      "pr_auc_trapezoid": 0.7430036633584824,
+      "accuracy": 0.9583333333333334,
+      "precision": 0.7954545454545454,
+      "recall": 0.5384615384615384,
+      "f1": 0.6422018348623854,
+      "confusion_matrix": [
+        [
+          862,
+          9
+        ],
+        [
+          30,
+          35
+        ]
+      ],
+      "seconds": 12.485903499997221,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 2,
+      "model": "lightgbm",
+      "recall_at_10": 0.7538461538461538,
+      "precision_at_10": 0.5212765957446809,
+      "lift_at_10": 7.506382978723404,
+      "captured": 49,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.763498234717946,
+      "roc_auc": 0.9492713945067561,
+      "pr_auc_trapezoid": 0.762338326960884,
+      "accuracy": 0.9626068376068376,
+      "precision": 0.8947368421052632,
+      "recall": 0.5230769230769231,
+      "f1": 0.6601941747572816,
+      "confusion_matrix": [
+        [
+          867,
+          4
+        ],
+        [
+          31,
+          34
+        ]
+      ],
+      "seconds": 7.234762900043279,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 2,
+      "model": "fixed_xgboost",
+      "recall_at_10": 0.7538461538461538,
+      "precision_at_10": 0.5212765957446809,
+      "lift_at_10": 7.506382978723404,
+      "captured": 49,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7449633838395695,
+      "roc_auc": 0.9479643204097854,
+      "pr_auc_trapezoid": 0.7435749588685464,
+      "accuracy": 0.9604700854700855,
+      "precision": 0.78,
+      "recall": 0.6,
+      "f1": 0.6782608695652174,
+      "confusion_matrix": [
+        [
+          860,
+          11
+        ],
+        [
+          26,
+          39
+        ]
+      ],
+      "seconds": 4.279416900011711,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 2,
+      "model": "fixed_gradient_boosting",
+      "recall_at_10": 0.7538461538461538,
+      "precision_at_10": 0.5212765957446809,
+      "lift_at_10": 7.506382978723404,
+      "captured": 49,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.6881440421828262,
+      "roc_auc": 0.932791662986841,
+      "pr_auc_trapezoid": 0.6855668223779768,
+      "accuracy": 0.9551282051282052,
+      "precision": 0.8709677419354839,
+      "recall": 0.4153846153846154,
+      "f1": 0.5625,
+      "confusion_matrix": [
+        [
+          867,
+          4
+        ],
+        [
+          38,
+          27
+        ]
+      ],
+      "seconds": 52.43166480003856,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    }
+  ],
+  "predictions": [
+    {
+      "row_id": 2079,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000296110927592963,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2559,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00037496216828003526,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3946,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016014300053939223,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3701,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00028222668333910406,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5535,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.14646638929843903,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2561,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00034921380574814975,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4294,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.172550587914884e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5413,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.445078128715977e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4059,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003102384798694402,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2420,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016073606093414128,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4417,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002229934761999175,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3326,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.023212989792227745,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2716,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.581390622770414e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4545,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.7874164516106248e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4725,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.051819501502905e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4406,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0021527500357478857,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2218,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.804428216535598e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4193,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.162728378607426e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2427,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011980959679931402,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3742,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016541871009394526,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 25,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012278025678824633,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4234,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000418235722463578,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 433,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018727117276284844,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1104,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001121827372116968,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2523,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017095491057261825,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5213,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001525616244180128,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4820,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010877527529373765,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5739,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9083160758018494,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3479,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04634438827633858,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 767,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00430292496457696,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2212,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00083203858230263,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4662,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007256437093019485,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3542,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019248152966611087,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3238,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.996638093260117e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3119,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.392545223236084,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5276,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.774730768986046e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4015,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002685939660295844,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5465,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.5975887775421143,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1624,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.490539479069412e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3396,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00035860479692928493,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1461,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013692843494936824,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 621,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016834492271300405,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2145,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003592114371713251,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4726,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.010084453970193863,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4576,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002544127171859145,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 592,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00035322990152053535,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4754,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001398614258505404,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3950,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003573637513909489,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3824,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0053671738132834435,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5481,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.1741807609796524,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3597,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000329549890011549,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2696,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.8092943719238974e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1124,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003232777235098183,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2515,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000512865197379142,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4505,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.87048484198749e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 626,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020165512978564948,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5793,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.27541762590408325,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4221,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.230370440287516e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 614,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.8593024985166267e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5177,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.28274571895599365,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4016,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011892556212842464,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 207,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.291740722488612e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2393,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012098673323635012,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4527,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003744877874851227,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5771,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9955470561981201,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3972,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.22599735856056213,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1049,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013184475246816874,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2767,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00028717314125970006,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5823,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9866553544998169,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1512,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00040945992805063725,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3094,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009394317748956382,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5586,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9849843978881836,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 343,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.531288595899241e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3640,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0023946224246174097,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2746,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010948342242045328,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2090,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.547192555852234e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1523,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0028624171391129494,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2723,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0062577007338404655,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4496,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.018105830997228622,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5409,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.2416729077813216e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4685,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007178463856689632,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1352,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024622344062663615,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2066,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.7487525939941406,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3879,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.6821333449333906e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1815,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.1097494279965758e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 522,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.240418350789696e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2328,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00043798875412903726,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2280,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020368562545627356,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 161,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011858087236760184,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 54,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003934302076231688,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4572,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010576105705695227,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3459,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.776232789386995e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5658,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.003889927174896002,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4759,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0012252692831680179,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3134,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0012170387199148536,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3911,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020299760217312723,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1224,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.2900607291376218e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1274,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0033368451986461878,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 60,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003033771936316043,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1737,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.9987026209710166e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5453,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.44764775037765503,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 369,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016348056960850954,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4761,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00030091972439549863,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 451,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00489322654902935,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5468,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9954056739807129,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2156,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.006105702370405197,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2061,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00047241876018233597,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2146,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.028400959447026253,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5555,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.875572144985199,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1692,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007120046764612198,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3632,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.008963278494775295,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3465,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011345305247232318,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3528,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.5148673709481955e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2753,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011967214522883296,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 577,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.5694836949696764e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4155,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00042030966142192483,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5780,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.00451291911303997,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3356,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003748325980268419,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4511,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.9760491341003217e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5306,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004037741746287793,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5312,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.03147100657224655,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2294,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006863620947115123,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2778,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.373147799517028e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2289,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000130457803606987,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5747,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.5831345319747925,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2556,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005007687024772167,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 261,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002386995911365375,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3807,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04721231013536453,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3821,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.54766006139107e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1345,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000728751823771745,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2310,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.626641359413043e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 670,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019677258387673646,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3953,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009597258176654577,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5687,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.0013716337271034718,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 151,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024507162743248045,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 280,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0023946613073349,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4821,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018692990124691278,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 566,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.254328036447987e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4982,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.02137206867337227,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4869,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.055038466001861e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4321,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.476584480376914e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4150,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00033027486642822623,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4085,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002498035551980138,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2425,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00121384859085083,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4773,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001753261312842369,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3810,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.377296500024386e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1488,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006370209157466888,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5683,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9932748079299927,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1363,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.10714297281811e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4558,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002504831936676055,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4205,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.36234466987662e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3588,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021172742708586156,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 214,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.019454521156149e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1432,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013840683095622808,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3714,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008810384897515178,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3403,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020390122663229704,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4452,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009318419033661485,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3880,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.242854068550514e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3670,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004810439422726631,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5469,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.03231716901063919,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2432,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.05663825571537018,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1951,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005308336578309536,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4657,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023566640447825193,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4030,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002488312777131796,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5401,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001158204860985279,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3231,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011555991368368268,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 849,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.8045950127998367e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3307,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002446866827085614,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2378,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.967868390958756e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1395,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.356691589346156e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2681,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006528336671181023,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1121,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005607454804703593,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2993,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.12451361864805222,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2577,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020180600695312023,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4575,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011028049048036337,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2326,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018454896053299308,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4724,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002489387523382902,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5474,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.501350998878479,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 837,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.547728581703268e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1221,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020631058141589165,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5245,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012924081238452345,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2859,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013723568990826607,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1519,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010747493070084602,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 663,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0015067575732246041,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3386,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.015048055909574032,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2111,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018651221762411296,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4997,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.83862269599922e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1017,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001609578321222216,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 937,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.897450930409832e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4865,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0018119385931640863,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2123,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.474715675925836e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2380,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00032348427339456975,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4514,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.027905171737074852,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 743,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011513126082718372,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2021,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004787811078131199,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4885,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.201247818651609e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 925,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0033326249103993177,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1028,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016133613826241344,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 383,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005374280153773725,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3195,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002182930475100875,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3241,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04373985901474953,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3247,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.573196641402319e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2594,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013305018364917487,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3344,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0015839730622246861,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 39,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0030565857887268066,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3135,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016717464313842356,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2553,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0023700587917119265,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1987,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0015684510581195354,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 333,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.13452136516571045,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 408,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007504037348553538,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1544,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039110073703341186,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2534,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002847034251317382,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 463,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003169000265188515,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 898,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002484874858055264,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3669,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023204521858133376,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4220,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.274514529039152e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4501,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.732325007556938e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5291,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006774091743864119,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5473,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9863420128822327,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5513,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.002403591526672244,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 401,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020131529308855534,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5141,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.759536619123537e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 201,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.06177666410803795,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5262,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.05933978408575058,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5512,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.0009975857101380825,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5138,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004345642868429422,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4327,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004286355804651976,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1171,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00044557268847711384,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4186,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.32477905228734e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2618,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.7322118282318115,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4245,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012892644735984504,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4622,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006275659543462098,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5195,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003369009355083108,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3185,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.490188606112497e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 124,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000883344211615622,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3888,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.84941374452319e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3686,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001032488071359694,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4071,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013261940330266953,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3310,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010475682938704267,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5628,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.4699292778968811,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5235,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017631138325668871,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4239,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.417416443582624e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2308,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009475626284256577,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4381,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014866954006720334,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 547,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007674226071685553,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4358,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004241943359375,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 224,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.493645635899156e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 720,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00035897144698537886,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3901,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006825887248851359,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4086,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.680091372691095e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 769,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009184608934447169,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1631,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0021125124767422676,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2271,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.926395872142166e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2053,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.5337557821767405e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1683,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001512169255875051,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4249,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0021147383376955986,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1437,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008165132021531463,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2838,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009276590310037136,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3242,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.165771628729999e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5072,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021654425654560328,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1582,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.846714288461953e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2598,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.03814069926738739,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1413,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0026129831094294786,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5078,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00037474953569471836,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3624,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.049215007573366165,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3775,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.010116755031049252,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 442,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.006343461573123932,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2036,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.3765053153038025,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1018,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005258691962808371,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 557,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00029663057648576796,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5433,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004694027593359351,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5156,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0018892823718488216,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4189,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.264637103304267e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5696,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.022809771820902824,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2946,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001620920142158866,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4616,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00025146210100501776,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5695,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.5756379961967468,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4158,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.015740729868412018,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2574,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011783927766373381,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2958,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003956091124564409,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4984,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.695997530594468e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4728,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017568943439982831,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3710,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006303948466666043,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3367,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010074186138808727,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4096,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011252892203629017,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1984,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011748787946999073,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 482,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.6426578187965788e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1743,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019984437676612288,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5304,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00038525936543010175,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5519,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9503851532936096,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 273,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006537286099046469,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1619,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009473509271629155,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3567,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001314886729232967,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5383,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004330899566411972,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 563,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.7450272682472132e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3432,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.172724205389386e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3750,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0010589169105514884,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4200,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.919046114082448e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3698,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003208389098290354,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5521,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.05873336270451546,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 178,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1566622257232666,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1365,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.0045763196540065e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3929,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016440697072539479,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4121,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.386230284580961e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5554,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9999765157699585,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 295,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006014015525579453,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3608,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001505949767306447,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3713,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.3943291277391836e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1558,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003149613505229354,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1600,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004849455785006285,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5375,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003522546903695911,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1995,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007866231724619865,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1319,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001283718302147463,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3700,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011005093983840197,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3453,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.013905197381973267,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5615,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9411762356758118,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3744,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014432343596126884,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5587,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.989143431186676,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 376,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.104775012412574e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3223,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01645372435450554,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3408,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005926525220274925,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2627,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005930371698923409,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4359,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004306108457967639,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4276,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004619377723429352,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5711,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9982549548149109,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3985,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.2810138761997223,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2143,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000413262692745775,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1178,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.7489809989929199,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4671,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001643737341510132,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3544,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010754002869362012,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2636,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.6154540777206421,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4834,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011372500739526004,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3401,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003263178514316678,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4100,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004262462258338928,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4404,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005779520724900067,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4691,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.1842808564542793e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1687,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006435519317165017,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 303,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.501943764509633e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1010,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.030680328374729e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1358,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0029874597676098347,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5016,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013431425904855132,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1109,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020911384490318596,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1400,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.068199682980776e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1938,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0044901748187839985,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3020,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.396248060511425e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2757,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00037030925159342587,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2456,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.001483754720539e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 900,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01408025249838829,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3335,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.564971691754181e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5314,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002459798997733742,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2373,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.015224367380142212,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5678,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.4696480929851532,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 315,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00042652772390283644,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3398,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003121545014437288,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 361,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.643500041216612e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4272,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001072304672561586,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4211,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012954829435329884,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4566,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.10964064300060272,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 986,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04327646270394325,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4817,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.384159107459709e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2575,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006905707414261997,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3388,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000921642582397908,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5676,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.021105268970131874,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2219,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005543789593502879,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4587,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00038990555913187563,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1417,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001854277215898037,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 795,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002898995589930564,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3046,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005103872972540557,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1166,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016905558004509658,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1765,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0031806628685444593,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2943,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.006202644668519497,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2631,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.012155326083302498,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5169,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.305484854849055e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1105,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0012156739830970764,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 698,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009307514876127243,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3908,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.7233759940136224e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4863,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004562214016914368,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4378,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001619557588128373,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4218,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011101296171545982,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4803,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012166097440058365,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2462,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0010032342979684472,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1265,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000140985895995982,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3716,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00034801437868736684,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2236,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00026049272855743766,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2330,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001755365403369069,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 101,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04517727717757225,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1455,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023603947192896158,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3540,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002557307598181069,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3448,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011760579218389466,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3332,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.6966548830387183e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 77,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008082938729785383,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1725,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.42795002460479736,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5198,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005336778122000396,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2682,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.4479334822681267e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3833,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010111151641467586,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4890,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0036630176473408937,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5837,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9998642206192017,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1161,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.0024273908347823e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 746,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.88327389373444e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3851,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0015082246391102672,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1884,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1468486487865448,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1532,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002847547410055995,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 950,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002293969737365842,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1229,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009776663035154343,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 885,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.315485395840369e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5216,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0014715201687067747,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4828,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.186583012342453,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4908,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002340502105653286,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2416,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019983276433777064,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5588,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9887856245040894,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5599,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.13830696046352386,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2304,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010609145101625472,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1191,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009552021510899067,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2669,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020981580018997192,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 342,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.450330642517656e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2815,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.03844507783651352,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2745,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.24635076522827148,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3722,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.12996967136859894,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2268,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004475540481507778,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 846,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017046496213879436,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 481,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023531792976427823,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3485,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019629005691967905,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 389,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.526763460598886e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4216,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.051282303407788e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 817,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.4649266302585602,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4854,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003182407934218645,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1853,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.23273299424909e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1545,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00030358522781170905,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3842,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00046096759615466,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 360,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.817319156951271e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1117,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.4219800505088642e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1590,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002197887748479843,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 629,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.491435048403218e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5191,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001754182594595477,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1926,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.018827712163329124,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3363,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.15528033673763275,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5356,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020352128194645047,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1576,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0031508193351328373,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1700,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005607305094599724,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3895,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1033579483628273,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5211,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003867965191602707,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 520,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013143800606485456,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5592,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9293608665466309,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5435,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005779253551736474,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4462,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0038723198231309652,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5529,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.8777221441268921,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 40,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018502557941246778,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2001,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0024417845997959375,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3861,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004123641178011894,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3089,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.8309868574142456,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2942,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013432903215289116,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3872,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004898746032267809,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4504,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004059896164108068,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4283,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01236689556390047,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2446,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013357186981011182,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4320,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010178676166106015,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1569,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021038719569332898,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3373,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008638164727017283,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1861,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004668866284191608,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2511,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006162610370665789,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1507,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0031165326945483685,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2286,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.161359200021252e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5248,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.288632382871583e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1285,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0987420305609703,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4832,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.015670936554670334,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1425,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020761370251420885,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2964,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.983291364624165e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1632,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.451724619982997e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4397,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00036064538289792836,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2785,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008954672375693917,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3891,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009338884265162051,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3461,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.2116349757416174e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2125,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001178902224637568,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 404,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010165329877054319,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2018,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.11767695099115372,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1054,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003168036637362093,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2926,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001394696009811014,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4217,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018098426517099142,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4930,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002932025527115911,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2876,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.157958316383883e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3697,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021624466171488166,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5360,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0019516783067956567,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4988,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.027898181229829788,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4588,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011741686466848478,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4810,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.0875070630572736e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4765,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019996541959699243,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1716,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.794017099309713e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3749,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0019413753179833293,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5014,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004039443447254598,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1219,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00034887954825535417,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2970,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0010929690906777978,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3002,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0028574455063790083,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2031,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01980351097881794,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5318,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004720462893601507,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 200,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003426375624258071,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2527,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004486026708036661,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1113,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001887028047349304,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 585,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.15974674676545e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1565,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004350871022325009,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 181,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.080848157173023e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4534,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014503086276818067,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3535,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009555615833960474,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2353,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.259650111431256e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3841,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008413598407059908,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1997,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003314018249511719,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2858,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00108638359233737,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2434,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.5233161449432373,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1672,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.769362466409802e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2009,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00015823209832888097,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 148,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00040764480945654213,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4525,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.737221312709153e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5848,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.8425242900848389,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1383,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.1263027722161496e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1462,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.026458822190761566,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1119,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00035466448753140867,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2710,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.8481422709301114e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5142,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.07095856219530106,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4655,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004259535111486912,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4626,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0038699093274772167,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3174,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006030316581018269,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5638,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9986400008201599,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 228,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00060275784926489,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4000,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017970539920497686,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4600,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.89135306654498e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1082,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.709114338969812e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2133,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004739801515825093,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5580,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9883661866188049,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 510,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.038308831397444e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4757,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.020038455724716187,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 738,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004980730009265244,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 399,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008403542451560497,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 497,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.81702367728576e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5656,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.4487767517566681,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1350,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006356666563078761,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 956,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014398623898159713,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5847,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.13717523217201233,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2554,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023685692576691508,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4507,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0019564004614949226,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4942,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007233339129015803,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3192,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.657435733359307e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1830,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.341486757970415e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1039,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016227138985414058,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 494,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.9746777979889885e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1460,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003262099053245038,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3130,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013977187918499112,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4805,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0010857866145670414,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2930,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.66048693144694e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5478,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.8506690859794617,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3069,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.3411608051683288e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2361,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.783934880630113e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 560,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010031776764662936,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2411,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.4092319361225236e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 921,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010951307194773108,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1382,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.1192342753929552e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2028,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002135673857992515,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3384,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006542069604620337,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2691,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004832323640584946,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4619,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000392277492210269,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 260,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010778662544908002,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2659,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.518972077174112e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3501,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.5665174126625061,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4170,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003326375735923648,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 271,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0014936961233615875,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1360,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005981338326819241,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2213,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005042527918703854,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 995,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002656367141753435,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 32,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039296786417253315,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3582,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00928414799273014,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 358,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021651142742484808,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 770,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.627017991268076e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1721,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.13580679893493652,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1183,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039157565333880484,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2802,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011553234071470797,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2345,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018084849580191076,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1767,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.149738353793509e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2731,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002111508511006832,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4857,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.08871825039386749,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1650,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005536985700018704,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1509,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.946655331470538e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1611,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.008239904418587685,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2020,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.27411825209856e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2954,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0029347885865718126,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 336,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1959124207496643,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1756,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00027270318241789937,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4551,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04286551475524902,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 595,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.901266194996424e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2786,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0019283731235191226,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5320,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0018255041213706136,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3939,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0018996114376932383,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1714,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0025039217434823513,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 671,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014157622354105115,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4557,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00041605281876400113,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 366,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.194319864036515e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2487,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.0214629077818245e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3216,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.355257599148899e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4838,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007428330718539655,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3219,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.8925034712301567e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4620,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.961672842502594,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2475,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.603756577940658e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 507,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005500442814081907,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1290,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005094341468065977,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4325,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.662932279752567e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1301,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0010666928719729185,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1948,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00018606139929033816,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2694,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001211698167026043,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5787,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.5192617774009705,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2795,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006373078213073313,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1955,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002142894663847983,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5845,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.15069973468780518,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 284,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005787674803286791,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1160,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0055662416853010654,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4530,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009821801213547587,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3558,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000179035821929574,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2790,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1384008228778839,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4918,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00025435566203668714,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1663,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020023153629153967,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 447,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.02198030985891819,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1772,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00025559766800142825,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00019311721553094685,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3050,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003329300961922854,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5283,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.1171020120382309,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3674,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.535415817168541e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5752,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.0007469327538274229,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2238,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008843678515404463,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 91,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004907565307803452,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3537,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0035911176819354296,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5171,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001362712704576552,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2680,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004065889399498701,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 593,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00022705658921040595,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 27,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006683859974145889,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3282,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0030619215685874224,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4005,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006131909904070199,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4743,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0024408334866166115,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 470,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00015069164510350674,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 213,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.977508746786043e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2081,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.026871662586927414,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4740,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.082110045710579e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4072,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002056284574791789,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2451,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001618405687622726,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1061,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00206743273884058,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1783,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010991806630045176,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1143,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.516524859354831e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1516,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016399190644733608,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3892,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0691683366894722,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 233,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00028769602067768574,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5424,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002724690129980445,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3317,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01832493208348751,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1784,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009639601339586079,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5688,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.14039292931556702,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 619,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.3351882444112562e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4914,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002247593831270933,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1852,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005218508886173368,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4776,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.6594402849441394e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2256,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.020453965291380882,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 521,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039869415923021734,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1711,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002622763277031481,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1924,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.01357391756027937,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1468,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001439648331142962,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5289,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.277100015315227e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2205,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.524367588805035e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 955,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009140875190496445,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3133,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005889555905014277,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1655,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.8093516195658594e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1326,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00034571150899864733,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 119,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.818586502457038e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1899,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.028584249317646027,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2721,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0122021259739995,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4374,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00047672330401837826,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5238,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.013966036029160023,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4360,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.363629654515535e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4729,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001937398628797382,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4830,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023816856264602393,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2763,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010264508455293253,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3863,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014907610602676868,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4438,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.949293260229751e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3433,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00029482890386134386,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4497,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005324837402440608,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4484,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.46017539501190186,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1795,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006459837895818055,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4331,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004238551016896963,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1719,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00044924861867912114,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2507,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011200896697118878,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3687,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021107074280735105,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1508,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000557954772375524,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1682,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.015142279677093029,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5425,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011205411283299327,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4001,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0012331318575888872,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1253,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.02096608467400074,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3181,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011628394946455956,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4769,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.4860341000021435e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3727,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020440145453903824,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 848,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.05809326469898224,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4269,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000857104838360101,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3229,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.4571487009525299,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 567,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005477175582200289,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3539,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.646082612045575e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 737,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009548659436404705,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1066,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011727353557944298,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3073,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.203206041594967e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4165,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020121759735047817,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2853,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0435335673391819,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2265,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.365034672242473e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 190,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.173206980340183e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3999,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.3583230358781293e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1927,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.20291860401630402,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3521,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005163320456631482,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5517,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.7445756196975708,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2955,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011370497522875667,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2590,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.537295146496035e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4310,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0014054023195058107,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2113,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.5636996219400316e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2096,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002538488479331136,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1769,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000384718383429572,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5043,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.21645736694335938,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1903,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.88165193120949e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1379,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012086947390343994,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4414,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017438728536944836,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2726,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010257844405714422,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5789,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.020660826936364174,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4920,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.107046591641847e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2506,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011575639247894287,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3639,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013091640721540898,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 432,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.717259460245259e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4183,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.06326648266986e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3664,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005305072409100831,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3885,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003759623796213418,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1300,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.179192546871491e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4816,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006859683780930936,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4463,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011252118274569511,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4159,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0031141869258135557,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4577,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00012523488840088248,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3166,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013400422176346183,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 936,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024400492839049548,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1609,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003761466941796243,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5332,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.838690700940788e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4777,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005885125719942153,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1985,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000321104220347479,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5255,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006026840419508517,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5806,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.12724001705646515,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3319,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00027252876316197217,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4808,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003229403868317604,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 579,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.3469376426655799e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4074,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.028878649696707726,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3936,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016142789972946048,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2905,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003175923484377563,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1944,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.016211410984396935,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5526,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9719960689544678,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2333,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.4226081222877838e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 167,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00033056025858968496,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2463,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004142474848777056,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3894,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.2386260752682574e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3481,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.3634554458549246e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4580,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004507924430072308,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3352,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016726896865293384,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5645,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9953908920288086,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5698,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.0054146908223629,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 139,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023031517048366368,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2406,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0031128532718867064,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2543,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008567867917008698,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5796,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9875067472457886,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1686,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.6816435971995816e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3680,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000339316000463441,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4442,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.496155113680288e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1936,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039717089384794235,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5000,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.22627559304237366,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2401,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024155524442903697,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1169,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.014619612134993076,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2737,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005888893269002438,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1295,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014103739522397518,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5798,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.05662649869918823,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4536,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.142063390754629e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5217,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.457908552372828e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 701,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001555921189719811,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3610,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0011660245945677161,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5493,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.4154593050479889,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3312,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00015485621406696737,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 350,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.2657434126595035e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1465,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00031020655296742916,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3804,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003263825783506036,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2833,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002527572214603424,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2647,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00021410934277810156,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 730,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 3.337284942972474e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5600,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.8805636763572693,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5595,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9902321696281433,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2918,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001281220029341057,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3318,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001367306220345199,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5723,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.998984158039093,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1539,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00586926843971014,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2990,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.338328916579485e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 183,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.09225136786699295,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1134,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001068655401468277,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2743,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009114214219152927,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1614,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001471870782552287,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3919,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 7.780185114825144e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2387,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002103976672515273,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3648,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011727781966328621,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3440,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002541074645705521,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3019,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.2862028345116414e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4592,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.013494758866727352,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 450,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004220380913466215,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5027,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009913197718560696,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 297,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.19212336838245392,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5259,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004178693052381277,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4301,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002666613319888711,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3294,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013852922711521387,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3779,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0024376357905566692,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2734,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005096605163998902,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2358,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003531819209456444,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 952,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.430377783952281e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3016,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.05132175236940384,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5039,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0008473788038827479,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3725,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001850433909567073,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2314,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.16349580883979797,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4976,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004297312349081039,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 286,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005701450281776488,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5204,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.019879626110196114,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2470,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0009873030940070748,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1623,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001220623729750514,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2244,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00031800410943105817,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4018,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 8.151061774697155e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3781,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00016643505659885705,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5197,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.018316276371479034,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1970,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001605764264240861,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2593,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.2833004550193436e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 216,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00023380476341117173,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2374,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.854042582446709e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4019,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0020644974429160357,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4171,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024872642825357616,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1883,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00028818382997997105,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3702,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.06409701704978943,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4097,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.011975719593465328,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4584,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0018743424443528056,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2847,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00030715452157892287,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2316,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.03867245092988014,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 298,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.000747248122934252,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5153,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013269756163936108,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4347,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.4472247064113617,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4528,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016959815984591842,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3678,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.2024706848023925e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4229,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010194752394454554,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3506,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0003545678046066314,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2137,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.1794759201584384e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3225,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002446472062729299,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5008,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.008113584481179714,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5808,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.18154296278953552,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 251,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00015570032701361924,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 725,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.808304897276685e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3497,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006570540717802942,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1585,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005213678814470768,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3105,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006156047456897795,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5222,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010025808296632022,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5742,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.001274837413802743,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4503,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017033969925250858,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 828,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.8493850827217102,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4660,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.2871999442577362,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4068,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.3316166400909424,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4710,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.006606806069612503,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3690,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002057186560705304,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3222,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00017063946870621294,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2149,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.46589219791349e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2332,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.8657770599238575e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1730,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.715782653074712e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2718,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0007269265479408205,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4168,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.360372855036985e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4605,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001828931737691164,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 775,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00014421310334000736,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5347,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.444348087417893e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1799,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039139518048614264,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3947,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007899118587374687,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2808,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.127220250258688e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3172,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.03135997802019119,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5790,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.030365698039531708,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2764,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007363215088844299,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5300,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009222937747836113,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2069,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004462741315364838,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2324,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.009649538435041904,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4925,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001779664191417396,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 806,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001997492043301463,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4395,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.003836807794868946,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 262,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.503608190338127e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3791,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0013122600503265858,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4522,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00015748851001262665,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2059,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002643051266204566,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 569,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00011610220826696604,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1227,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004683336883317679,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4935,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007605192717164755,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2120,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002663352293893695,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5459,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.29453229904174805,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 362,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.8689242753898725e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2695,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00026313267881050706,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3320,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00242448877543211,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2015,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002503213472664356,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1380,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.007232058327645063,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4767,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00022982007067184895,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4387,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.528915789909661e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4615,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0001539384393254295,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 386,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004961983649991453,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4340,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00039194856071844697,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 418,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00038446119287982583,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4446,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0006535759894177318,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4295,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016976811457425356,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5342,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005132757360115647,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3852,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0016702588181942701,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3075,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00010033622675109655,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3896,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.001228435430675745,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1750,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0005163023015484214,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1675,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.016312023624777794,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3864,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.656453024334041e-06,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3167,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.261745875235647e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1667,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004008051473647356,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2564,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.028507521376013756,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3629,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.004732436966150999,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5630,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.9494896531105042,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 4264,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00034188918652944267,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5682,
+      "outer_fold": 2,
+      "actual": 1,
+      "score": 0.998870313167572,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1260,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.002381803235039115,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 199,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.005717990454286337,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1349,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0030347895808517933,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3360,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 9.306300489697605e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3379,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00024983921321108937,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 377,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.21873332420364e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3494,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00013111115549691021,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2687,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 5.6540186051279306e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2135,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.6011616025934927e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2994,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0023811901919543743,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2351,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.04438164457678795,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1281,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.00020772973948623985,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2760,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.3975294677948114e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 3493,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.890971417305991e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1009,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.05944026634097099,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 258,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0004037191392853856,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 2430,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 1.9620110833784565e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 1542,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 2.6925074052996933e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 979,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 6.444381142500788e-05,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 5056,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 0.0002745336969383061,
+      "family": "xgboost"
+    },
+    {
+      "row_id": 739,
+      "outer_fold": 2,
+      "actual": 0,
+      "score": 4.81960378238e-05,
+      "family": "xgboost"
+    }
+  ]
+}

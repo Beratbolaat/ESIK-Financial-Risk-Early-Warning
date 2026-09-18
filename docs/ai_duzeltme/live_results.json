@@ -1,0 +1,104 @@
+{
+  "created_utc": "2026-09-15T14:15:46.867598+00:00",
+  "model": "XGBoost",
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "historical_company_labels_excluded": true,
+  "results": [
+    {
+      "id": "model_and_shap",
+      "question": "Bu şirket için hangi model kullanılıyor, risk sırası ve en önemli üç SHAP katkısı nedir?",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "- **Kullanılan model:** XGBoost. Model, 64 finansal oranla **bir yıl içindeki iflas riskini** tahmin ediyor. Şirket skoru ham ve kalibre edilmemiş tahmindir: **%99,84** (**99,84/100**).\n- **Risk sırası:** Portföyde **3. sırada**; toplam 1.170 şirket içinde **“Kritik – İlk %5”** grubunda.\n\n**En önemli üç SHAP katkısı**  \nBunlar ham model marjına log-odds katkılarıdır; kalibre edilmiş olasılığa yüzde puan katkısı veya nedensellik olarak yorumlanmamalıdır:\n\n1. **Attr21 – Cari yıl satışları / önceki yıl satışları:** **+2,760**  \n   - Girdi eksik olduğu için eğitim medyanıyla tamamlanmış.\n2. **Attr39 – Satış kârı / satışlar:** **+1,091**\n3. **Attr35 – Satış kârı / toplam varlıklar:** **+1,088**\n\nŞirkette toplam **2 eksik finansal girdi** bulunuyor; diğer eksik değişken **Attr37**. Model seçimi tarihsel karşılaştırmaya dayanıyor; yeni bağımsız dış doğrulama bulunmuyor.",
+      "seconds": 5.74
+    },
+    {
+      "id": "raw_probability_meaning",
+      "question": "Ham model skoru nasıl hesaplanıyor? Bu değer neyi ifade ediyor?",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Ham model skoru, **XGBoost modelinin `predict_proba(X)[:,1]` çıktısıdır**. Model, şirketin 64 finansal oranını birlikte değerlendirerek **bir yıl içinde iflas riski için ham ve kalibre edilmemiş bir olasılık tahmini** üretir.\n\nBu şirket için:\n\n- **Ham skor:** 0,99843234  \n- **Gösterim:** %99,84 veya 99,84/100  \n- **Anlamı:** Modelin mevcut girdilerle şirketi çok yüksek iflas riski grubunda sıraladığı anlamına gelir.\n\nAncak bu değer, doğrudan “gerçek iflas olasılığı kesin olarak %99,84’tür” şeklinde yorumlanmamalıdır. Modelin sınıf ağırlıkları ve öğrenme yapısı ham skorların olasılık ölçeğinde sapmasına neden olabilir. Bu nedenle ayrıca sigmoid kalibrasyonu uygulanmıştır:\n\n- **Kalibre edilmiş tahmin:** %98,95  \n- Bu tahmin de keşifseldir; güncel bağımsız dış doğrulama yapılmamıştır.\n\nSkorun hesaplanmasında kullanılan finansal oranların bazıları eksikse, eksik girdiler eğitim verisinden öğrenilen medyanlarla doldurulur. Bu şirket için **64 girdiden 2’si eksiktir**.",
+      "seconds": 6.24
+    },
+    {
+      "id": "model_selection",
+      "question": "Neden LightGBM yerine XGBoost seçtiniz? İki modelin dış kat sonuçlarını karşılaştır.",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "XGBoost’u, bu karşılaştırma sürümünde **beş dış katın ortalama Recall@Top10 değeri daha yüksek olduğu için** seçtik. Ancak fark sınırlı ve bu sonuçlar yeni bağımsız doğrulama değildir. Ayrıca başlangıçtaki ortak iç aramada LightGBM seçilmişti; XGBoost tercihi daha sonra yapılan aile karşılaştırmasına dayanıyor.\n\n### Dış kat karşılaştırması\n\n| Metrik | XGBoost | LightGBM | Üstün model |\n|---|---:|---:|---|\n| Recall@Top10 | **0,7915** | 0,7761 | XGBoost |\n| Precision@Top10 | 0,5489 | **0,5383** | XGBoost |\n| Lift@Top10 | **7,8815** | 7,7278 | XGBoost |\n| Average Precision | 0,7459 | **0,7520** | LightGBM |\n| ROC-AUC | 0,9366 | **0,9397** | LightGBM |\n| Recall oynaklığı | **0,0276** | 0,0371 | XGBoost |\n\n### Yorum\n\n- Önceliğimiz ilk %10’luk inceleme listesinde daha fazla gerçek iflası yakalamak olduğu için **Recall@Top10’u seçim ölçütü** yaptık.\n- Bu ölçütte XGBoost yaklaşık **1,54 yüzde puanı** önde.\n- LightGBM ise Average Precision ve ROC-AUC’ta daha iyi; yani genel sıralama performansında avantaj gösteriyor.\n- Bu nedenle “XGBoost her açıdan daha iyi” sonucu çıkarılamaz. Seçim, belirlenen operasyonel önceliğe bağlıdır.\n- Tarihsel testte ise **LightGBM önde**: Recall@Top10 %85,37’ye karşı XGBoost %81,71; Precision@Top10 %59,83’e karşı %57,26. Bu test daha önce incelendi ve yeni bağımsız doğrulama sayılmıyor.",
+      "seconds": 7.64
+    },
+    {
+      "id": "missing_count",
+      "question": "Bu şirkette toplam kaç eksik veri var?",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Bu şirkette **toplam 2 eksik veri** var. Eksik olan girdiler: **Attr21** ve **Attr37**.",
+      "seconds": 1.99
+    },
+    {
+      "id": "whatif_unavailable",
+      "question": "Son What-if sonucunu yorumla.",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Bu şirket için **son What-if sonucu mevcut değil**; bağlamda herhangi bir senaryo analizi bulunmuyor. Bu nedenle senaryonun risk skorunu nasıl değiştirdiğini yorumlayamam.\n\nMevcut temel görünüm:\n\n- Ham, kalibre edilmemiş 1 yıllık iflas olasılığı tahmini: **%99,84** (**99,84/100**).\n- Kalibre edilmiş keşifsel tahmin: **%98,95**.\n- Risk seviyesi: **Kritik**, portföyde **ilk %5** içinde.\n- Analist inceleme listesinde.\n- **64 girdinin 2’si eksik** ve eğitim medyanıyla doldurulmuş.\n\nWhat-if senaryosunu **Şirket Detayı** bölümünde oluşturduğunuzda, yeni skor ile mevcut temel skor arasındaki farkı skor puanı olarak yorumlayabilirim.",
+      "seconds": 3.53
+    },
+    {
+      "id": "output_location",
+      "question": "Bu çıktıları uygulamada nerede görebilirim?",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Bu çıktıları uygulamada şu bölümlerde görebilirsiniz:\n\n- **Şirket Detayı:** Şirket skoru, 1 yıllık kalibre iflas olasılığı, etkili faktörler, eksik girdiler ve **What-if** senaryosu.\n- **Analist Öncelik Listesi:** Şirketlerin risk sıralaması ve ilk %10 inceleme listesi.\n- **Model Doğrulaması:** Tarihsel test metrikleri ve olasılık kalibrasyonu.\n- **Model Kartı:** XGBoost modeli, veri kapsamı, model seçimi ve doğrulama sınırlamaları.\n- **Yeni Veri Analizi:** 64 finansal oranı içeren CSV yükleyerek ham model skorlarını inceleme.\n- **Eşik AI:** Seçili şirketin veya mesajda belirtilen şirket kodunun mevcut sonuçlarını açıklama.",
+      "seconds": 2.82
+    },
+    {
+      "id": "probability_value",
+      "question": "Bir yıllık iflas olasılığı tahmini kaç?",
+      "company_id": "ESIK-05817",
+      "route": "python_probability_report",
+      "answer": "ESIK-05817 için bir yıllık iflas olasılığı tahmini **%99,0**.\n\nModelin ham olasılık tahmini, kat dışı tahminlerden öğrenilen sigmoid ile ayarlanmıştır. Keşifsel kalibrasyon tahmini; güncel yerel dış doğrulama yapılmadı.\n\nAynı tahmin bandındaki 132 dış doğrulama kaydının 123 tanesi iflas etiketliydi; gözlenen oran %93,2. Bu, grubun sıklığıdır; tek şirkete ait güven aralığı değildir.\n\nHam model skorunu en fazla artıran göstergeler: Cari yıl satışları / önceki yıl satışları (eksik, medyanla dolduruldu), Satış kârı / satışlar, Satış kârı / toplam varlıklar.\n\nYanıt doğrulanmış hesaplama çıktısından üretildi. SHAP nedensellik göstermez.",
+      "seconds": 0.03
+    },
+    {
+      "id": "other_company_shap",
+      "question": "ESIK-05511 için en önemli üç risk faktörü nedir?",
+      "company_id": "ESIK-05511",
+      "route": "live_n8n",
+      "answer": "ESIK-05511 için en önemli üç **risk artırıcı faktör**:\n\n1. **Satış kârı / satışlar (Attr39):** **-0,2776** — en yüksek risk katkısı; SHAP **+1,267**.  \n2. **Satış kârı / toplam varlıklar (Attr35):** **-0,2244** — SHAP **+0,648**.  \n3. **Faaliyet giderleri / toplam yükümlülükler (Attr34):** **3,1248** — SHAP **+0,210**.\n\nSHAP değerleri, bu göstergelerin **ham model marjına katkısını** gösterir; kalibre edilmiş iflas olasılığına yüzde puan katkısı veya doğrudan nedensellik anlamına gelmez. Şirketin ham risk tahmini **%17,39**; keşifsel kalibrasyon tahmini ise 1 yıllık ufukta **%14,72**’dir.",
+      "seconds": 3.31
+    },
+    {
+      "id": "typo_greeting",
+      "question": "nbr nslsn cnmmm???",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Naber! İyiyim, teşekkürler 😊 Sen nasılsın?",
+      "seconds": 2.27
+    },
+    {
+      "id": "other_company_probability",
+      "question": "ESIK-05511 için bir yıllık iflas ihtimali kaç?",
+      "company_id": "ESIK-05511",
+      "route": "python_probability_report",
+      "answer": "ESIK-05511 için bir yıllık iflas olasılığı tahmini **%14,7**.\n\nModelin ham olasılık tahmini, kat dışı tahminlerden öğrenilen sigmoid ile ayarlanmıştır. Keşifsel kalibrasyon tahmini; güncel yerel dış doğrulama yapılmadı.\n\nAynı tahmin bandındaki 208 dış doğrulama kaydının 27 tanesi iflas etiketliydi; gözlenen oran %13,0. Bu, grubun sıklığıdır; tek şirkete ait güven aralığı değildir.\n\nHam model skorunu en fazla artıran göstergeler: Satış kârı / satışlar, Satış kârı / toplam varlıklar, Faaliyet giderleri / toplam yükümlülükler.\n\nYanıt doğrulanmış hesaplama çıktısından üretildi. SHAP nedensellik göstermez.",
+      "seconds": 0.03
+    },
+    {
+      "id": "probability_negation",
+      "question": "Olasılığı tekrar yazma. En önemli üç SHAP katkısını sayılarıyla açıkla.",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "En önemli üç SHAP katkısı:\n\n1. **Cari yıl satışları / önceki yıl satışları (Attr21): +2,7600 log-odds**  \n   Satış büyümesi oranı **1,1177**. Bu katkı, ham model marjını en fazla artıran faktör. Ancak bu girdi eksik olduğu için eğitim medyanıyla doldurulmuş; gözlenen şirket değeri olarak yorumlanmamalı.\n\n2. **Satış kârı / satışlar (Attr39): +1,0907 log-odds**  \n   Oran **−0,2945**. Negatif satış kârlılığı, modelin risk yönünü artıran güçlü bir sinyal olarak değerlendirilmiş.\n\n3. **Satış kârı / toplam varlıklar (Attr35): +1,0885 log-odds**  \n   Oran **−2,1101**. Varlıklara göre negatif satış kârlılığı, ham model marjına belirgin biçimde risk artırıcı katkı yapmış.\n\nSHAP değerleri **kalibre edilmiş olasılığa yüzde puan katkısı veya nedensellik** anlamına gelmez; ham model marjındaki katkıları gösterir. Ayrıca bu şirkette toplam **2 finansal girdi eksik** bulunuyor.",
+      "seconds": 3.79
+    },
+    {
+      "id": "calibration_method",
+      "question": "Sigmoid kalibrasyonunu neden yaptık, nasıl uyguladık?",
+      "company_id": "ESIK-05817",
+      "route": "live_n8n",
+      "answer": "Sigmoid kalibrasyonunu, modelin ürettiği **ham iflas olasılıklarını daha gerçekçi olasılık yüzdelerine dönüştürmek** için yaptık.\n\n- **Neden?** XGBoost’un ham skoru sıralama açısından başarılı olabilir; ancak örneğin %80 dediği şirketlerin gerçekten yaklaşık %80 oranında iflas edeceğini garanti etmez. Sınıf ağırlıkları ve model uyumu da bu yüzdeleri bozabilir.\n- **Nasıl?** XGBoost’un ham model marjı ile, eğitim verisindeki kat dışı tahminlerin gerçek 0/1 sonuçları arasındaki ilişkiyi **pozitif eğimli sigmoid fonksiyonuyla** öğrendik. Sınıf ağırlığı kullanılmadı.\n- **Ne değişti?** Şirketlerin risk sıralaması korundu; yalnızca skorların olasılık yorumu yeniden ayarlandı. Bu nedenle kalibrasyon yeni bir model veya sıfırdan üretilmiş bağımsız bir risk değildir.\n- **Sonuç:** Geliştirme katlarında Brier skoru **0,0344’ten 0,0318’e**, log loss **0,1391’den 0,1207’ye** düştü. Bu ölçütlerde düşüş daha iyidir.\n- **Bu şirket için:** Ham tahmin **%99,84**, sigmoid kalibrasyonlu tahmin ise **%98,95**. Kalibrasyon keşifseldir; güncel yerel dış doğrulama yapılmamıştır ve kesin iflas garantisi değildir.",
+      "seconds": 4.55
+    }
+  ]
+}

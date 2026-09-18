@@ -1,0 +1,65 @@
+VARIABLE,DESCRIPTION,MEAN_ABS_SHAP,SHAP_IMPORTANCE_RATIO,SHAP_RANK
+Attr27,Faaliyet kârı / finansman giderleri,0.80514264,0.08433569,1
+Attr21,Cari yıl satışları / önceki yıl satışları,0.6542056,0.068525605,2
+Attr39,Satış kârı / satışlar,0.65189457,0.06828353,3
+Attr35,Satış kârı / toplam varlıklar,0.4545478,0.04761219,4
+Attr46,Asit-test oranı,0.40931273,0.042873982,5
+Attr24,Son üç yıllık brüt kâr / toplam varlıklar,0.3252091,0.034064442,6
+Attr58,Toplam maliyetler / toplam satışlar,0.32293758,0.033826508,7
+Attr25,(Özkaynak - sermaye) / toplam varlıklar,0.30118853,0.031548377,8
+Attr36,Toplam satışlar / toplam varlıklar,0.29042357,0.030420788,9
+Attr38,Devamlı sermaye / toplam varlıklar,0.26097682,0.02733635,10
+Attr9,Satışlar / toplam varlıklar,0.2578679,0.027010702,11
+Attr34,Faaliyet giderleri / toplam yükümlülükler,0.24741699,0.025916008,12
+Attr62,Kısa vadeli yükümlülüklerin satışlara göre devir süresi,0.22129825,0.023180168,13
+Attr26,Net kâr ve amortisman / toplam yükümlülükler,0.19841433,0.020783162,14
+Attr41,Borçların faaliyet kârı ve amortismanla karşılanma yükü,0.18659425,0.019545052,15
+Attr40,(Dönen varlıklar - stoklar - alacaklar) / kısa vadeli yükümlülükler,0.18589668,0.019471984,16
+Attr13,Brüt kâr ve amortisman / satışlar,0.17892772,0.018742012,17
+Attr42,Faaliyet kârı / satışlar,0.17104606,0.017916437,18
+Attr43,Alacak ve stok devir süresi,0.16110086,0.016874716,19
+Attr47,Stok devir süresi,0.15496956,0.016232485,20
+Attr6,Dağıtılmamış kârlar / toplam varlıklar,0.15326174,0.016053597,21
+Attr48,Kaynakta EBITDA olarak adlandırılan tutar / toplam varlıklar (tanım notu),0.14143616,0.014814911,22
+Attr22,Faaliyet kârı / toplam varlıklar,0.1378744,0.014441829,23
+Attr45,Net kâr / stoklar,0.13239552,0.013867938,24
+Attr55,Çalışma sermayesi,0.12908165,0.013520822,25
+Attr61,Satışlar / alacaklar,0.12456699,0.013047928,26
+Attr53,Özkaynaklar / duran varlıklar,0.11768485,0.01232705,27
+Attr56,Brüt kâr marjı,0.1123603,0.011769323,28
+Attr29,Toplam varlıkların logaritması,0.109377205,0.011456855,29
+Attr44,Alacakların satışlara göre devir süresi,0.10854714,0.011369909,30
+Attr20,Stokların satışlara göre devir süresi,0.10012927,0.010488168,31
+Attr30,Nakit sonrası yükümlülükler / satışlar,0.09811879,0.010277578,32
+Attr33,Faaliyet giderleri / kısa vadeli yükümlülükler,0.08689381,0.009101803,33
+Attr49,Kaynakta EBITDA olarak adlandırılan tutar / satışlar (tanım notu),0.07929352,0.0083057005,34
+Attr5,Nakit temelli kısa vadeli finansman yeterliliği,0.07854609,0.008227411,35
+Attr37,Likit varlıklar / uzun vadeli yükümlülükler,0.07780513,0.008149798,36
+Attr4,Dönen varlıklar / kısa vadeli yükümlülükler,0.07514876,0.007871553,37
+Attr54,Devamlı sermaye / duran varlıklar,0.075010754,0.007857097,38
+Attr64,Satışlar / duran varlıklar,0.07472881,0.007827564,39
+Attr15,Yükümlülüklerin kârla geri ödeme süresi,0.071839064,0.0075248745,40
+Attr28,Çalışma sermayesi / duran varlıklar,0.06974099,0.007305109,41
+Attr16,Brüt kâr ve amortisman / toplam yükümlülükler,0.066155255,0.006929517,42
+Attr50,Dönen varlıklar / toplam yükümlülükler,0.062470853,0.0065435893,43
+Attr60,Satışlar / stoklar,0.05982111,0.0062660384,44
+Attr57,(Dönen varlıklar - stoklar - kısa vadeli yükümlülükler) / (satışlar - brüt kâr - amortisman),0.057854194,0.006060011,45
+Attr23,Net kâr / satışlar,0.054068133,0.0056634354,46
+Attr63,Satışlar / kısa vadeli yükümlülükler,0.054001454,0.005656451,47
+Attr19,Brüt kâr / satışlar,0.0533666,0.0055899527,48
+Attr8,Özkaynak defter değeri / toplam yükümlülükler,0.051787682,0.005424567,49
+Attr51,Kısa vadeli yükümlülükler / toplam varlıklar,0.049393706,0.0051738066,50
+Attr1,Net kâr / toplam varlıklar,0.049380172,0.005172389,51
+Attr11,(Brüt kâr + olağandışı kalemler + finansal giderler) / toplam varlıklar,0.048729617,0.005104246,52
+Attr3,Çalışma sermayesi / toplam varlıklar,0.048140783,0.005042568,53
+Attr52,Kısa vadeli yükümlülüklerin maliyete göre devir süresi,0.046876475,0.004910136,54
+Attr32,Kısa vadeli yükümlülüklerin devir süresi,0.04684629,0.0049069743,55
+Attr12,Brüt kâr / kısa vadeli yükümlülükler,0.043189302,0.0045239185,56
+Attr31,Brüt kâr ve faiz / satışlar,0.040026665,0.0041926443,57
+Attr59,Uzun vadeli yükümlülükler / özkaynaklar,0.026087161,0.002732533,58
+Attr10,Özkaynaklar / toplam varlıklar,0.019192504,0.0020103434,59
+Attr2,Toplam yükümlülükler / toplam varlıklar,0.01818734,0.0019050562,60
+Attr7,EBIT / toplam varlıklar,0.017467866,0.0018296939,61
+Attr17,Toplam varlıklar / toplam yükümlülükler,0.017335752,0.0018158555,62
+Attr14,Brüt kâr ve faiz / toplam varlıklar,0.013783722,0.0014437935,63
+Attr18,Brüt kâr / toplam varlıklar,0.009503591,0.0009954658,64

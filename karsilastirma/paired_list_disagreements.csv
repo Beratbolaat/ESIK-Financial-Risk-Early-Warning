@@ -1,0 +1,8 @@
+actual,review_difference,companies
+0,both,36
+0,lightgbm_only,11
+0,neither,1027
+0,xgboost_only,14
+1,both,67
+1,lightgbm_only,3
+1,neither,12

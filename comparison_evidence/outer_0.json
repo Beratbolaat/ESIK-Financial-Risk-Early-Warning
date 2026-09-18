@@ -1,0 +1,67 @@
+{
+  "outer_fold": 0,
+  "family": "xgboost",
+  "parameters": {
+    "n_estimators": 800,
+    "learning_rate": 0.11322354832260055,
+    "subsample": 0.866884153912825,
+    "colsample_bytree": 0.8887743317843408,
+    "reg_alpha": 0.01,
+    "weight_multiplier": 1.6780389653847196,
+    "max_depth": 3,
+    "min_child_weight": 10.893680148410569,
+    "reg_lambda": 2.5306921638512643,
+    "gamma": 1.0
+  },
+  "training_rows": 3744,
+  "evaluation_rows": 936,
+  "calibrator": {
+    "method": "positive_slope_sigmoid_on_raw_margin",
+    "center": -5.145378777612887,
+    "scale": 3.1320293506251486,
+    "slope": 2.112448728776331,
+    "intercept": -4.329028319273426,
+    "calibration_rows": 3744,
+    "calibration_positives": 261
+  },
+  "metrics": {
+    "recall_at_10": 0.7846153846153846,
+    "precision_at_10": 0.5425531914893617,
+    "lift_at_10": 7.812765957446808,
+    "captured": 51,
+    "reviewed": 94,
+    "positives": 65,
+    "average_precision": 0.7337192911449492,
+    "roc_auc": 0.91387441490771,
+    "pr_auc_trapezoid": 0.7326129633609528,
+    "accuracy": 0.9497863247863247,
+    "precision": 0.6451612903225806,
+    "recall": 0.6153846153846154,
+    "f1": 0.6299212598425197,
+    "confusion_matrix": [
+      [
+        849,
+        22
+      ],
+      [
+        25,
+        40
+      ]
+    ]
+  },
+  "raw": {
+    "brier": 0.03640225220139382,
+    "log_loss": 0.1474339957255794,
+    "mean_prediction": 0.08210588560615506,
+    "observed_rate": 0.06944444444444445
+  },
+  "calibrated": {
+    "brier": 0.03179666768024825,
+    "log_loss": 0.127945792190077,
+    "mean_prediction": 0.06901653983272721,
+    "observed_rate": 0.06944444444444445
+  },
+  "fit_seconds": 2.7190669999981765,
+  "fit_evaluation_disjoint": true,
+  "matches_original_outer_metrics": true
+}

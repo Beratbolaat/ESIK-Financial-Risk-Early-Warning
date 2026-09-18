@@ -1,0 +1,9 @@
+{
+  "method": "positive_slope_sigmoid_on_raw_margin",
+  "center": -4.802696084113728,
+  "scale": 2.614427709053332,
+  "slope": 2.057316775321732,
+  "intercept": -4.310154569150709,
+  "calibration_rows": 4680,
+  "calibration_positives": 326
+}

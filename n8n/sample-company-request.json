@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "session_id": "demo-session",
+  "question": "Bu şirket neden riskli görünüyor?",
+  "context": {
+    "context_type": "company",
+    "company": {
+      "company_id": "COMPANY_42",
+      "risk_score": 0.81,
+      "risk_group": "Kritik - İlk %5",
+      "risk_rank": 4,
+      "analyst_review_top_10": true,
+      "risk_increasing_factors": [
+        {
+          "feature": "Attr2",
+          "description": "Toplam yükümlülükler / toplam varlıklar",
+          "value": 0.72,
+          "shap": 1.34
+        }
+      ],
+      "risk_reducing_factors": [],
+      "latest_what_if": null
+    },
+    "portfolio": null
+  },
+  "conversation_history": [],
+  "model_validation": {
+    "score_is_calibrated_probability": false,
+    "test_roc_auc": 0.951,
+    "test_pr_auc": 0.791,
+    "test_recall_at_top_10": 0.829,
+    "test_precision_at_top_10": 0.581,
+    "test_lift_at_top_10": 8.29
+  }
+}

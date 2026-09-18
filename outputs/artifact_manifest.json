@@ -1,0 +1,26 @@
+{
+  "model_version": "family-comparison-xgboost-v1",
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "files": {
+    "models/esik_final_model_pipeline.pkl": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+    "feature_descriptions.json": "c47317e7f169679491d65f7a5ec231f00bdd9473aba74a77b80ef557e32973bd",
+    "outputs/esik_baseline_model_comparison.csv": "12da7b787802c20826e88c4cd3085d95f9c11530f88e2775686fd63cac797926",
+    "outputs/esik_capacity_results.csv": "e00ec5cf33f54e303eb06eaf9eced34745d7a095ceabf247d71168fae32ed289",
+    "outputs/esik_dashboard_risk_list.csv": "a90d810f87a7128819880fd8e3fbcfdb44ced286741fbcc5773294be911281d9",
+    "outputs/esik_feature_importance.csv": "935231d8f1fad75515164208a88819cf6a1b5a37d0eac85da2504966c5e3e38c",
+    "outputs/esik_final_test_metrics.csv": "f02b4df0875ea3fc945979ea3a0a5e2dabe7086683d4d0153d15396ea0a009f9",
+    "outputs/esik_financial_direction.csv": "cd6be191b618719eb77450333c336025b1c68e9bb0339366f745d5dd77fe676e",
+    "outputs/esik_scored_test_companies.csv": "0fa5dd80b5b8340fa7552b009a5566e95e6c89a697f2cfae977e09db60a8fdbd",
+    "outputs/esik_shap_global_importance.csv": "c3303a098dab508a5d072fbc156a93432d25ab20c9a80e1bb2a513df7b3da817",
+    "outputs/esik_shap_local_values.csv": "9df0a161c7b9f280c45a612eda13d6fbb01a996b29a75e395fbd781054a1fc53",
+    "outputs/esik_tuned_model_comparison.csv": "cb19350a09241a1ebad9b31a155cfcc391d71c58001ddc2ab653b2ce62ba11dd",
+    "outputs/esik_model_metadata.json": "ef17a199a28b385975512111eaddbcf3b4d99fe809323525c608ccd984d00353"
+  },
+  "roundtrip_max_error": 0.0,
+  "shap": {
+    "scale": "raw_log_odds",
+    "maximum_probability_reconstruction_error": 4.76837158203125e-07,
+    "company_count": 1170,
+    "local_rows": 74880
+  }
+}

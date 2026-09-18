@@ -1,0 +1,16 @@
+{
+  "status": "ok",
+  "mode": "model_grounded_ai",
+  "source": {
+    "dataset": "UCI Polish Companies Bankruptcy - 5year",
+    "model_version": "family-comparison-xgboost-v1",
+    "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+    "data_scope": "Tarihsel ve anonim Polonya kayıtları; güncel şirket verisi değil",
+    "queried_at_utc": "2026-09-15T12:30:16.377779+00:00"
+  },
+  "company_id": "ESIK-05817",
+  "risk_rank": 3,
+  "answer": "ESIK-05817 | sıra 3/1170\nModel skoru (0–100): 99.84\nBir yıllık iflas olasılığı tahmini: %99,0. Keşifsel kalibrasyon; tarihsel veri.\nİlk %10 inceleme listesinde: Evet\nEksik girdi: 2/64\nSkoru yukarı çeken başlıca göstergeler:\n1. Attr21 — Cari yıl satışları / önceki yıl satışları (eksik; eğitim medyanıyla doldurulmuş)\n2. Attr39 — Satış kârı / satışlar (-0.2945)\n3. Attr35 — Satış kârı / toplam varlıklar (-2.11)\nAnalist, bu göstergelerin dayandığı finansal kayıtları ve eksik girdileri kontrol edebilir.\n\nAsistan yorumu:\n- **Model sırası:** 1.170 şirket içinde **3. sıra**; risk grubu **“Kritik – İlk %5”**.\n- **Model skoruna katkısı en yüksek üç risk göstergesi:**\n  1. **Attr21 – Cari yıl satışları / önceki yıl satışları:** SHAP **+2,760**. Değer **1,1177**; ancak bu veri eksik olduğu için eğitim medyanıyla doldurulmuştur ve analist tarafından doğrulanmalıdır.\n  2. **Attr39 – Satış kârı / satışlar:** SHAP **+1,091**, değer **-0,29452**.\n  3. **Attr35 – Satış kârı / toplam varlıklar:** SHAP **+1,088**, değer **-2,1101**.\n\nSHAP değerleri model tahminine katkıyı gösterir; tek başına nedensellik ifade etmez. Nihai değerlendirme insan analiste aittir.\n\nKaynak: UCI Polish Companies Bankruptcy - 5year. Model: family-comparison-xgboost-v1. Tarihsel demo kaydı. Ham skor, kalibre edilmemiş model olasılık tahminidir; SHAP nedensellik göstermez.",
+  "historical_labels_excluded": true,
+  "voice_tested": false
+}

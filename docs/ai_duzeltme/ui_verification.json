@@ -1,0 +1,14 @@
+{
+  "observed_utc": "2026-09-15T14:26:24.329515+00:00",
+  "method": "Real browser UI via Codex computer-use; visible dropdown and answer inspected.",
+  "url": "http://127.0.0.1:8503/",
+  "initial_selected_company": "ESIK-05817",
+  "question": "ESIK-05511 için bir yıllık iflas ihtimali kaç?",
+  "observed_selected_company": "ESIK-05511",
+  "observed_risk_rank": 125,
+  "observed_risk_score_display": "17.4/100",
+  "observed_calibrated_probability_display": "%14,7",
+  "observed_answer_prefix": "ESIK-05511 için bir yıllık iflas olasılığı tahmini %14,7.",
+  "route": "local deterministic probability report; no n8n/OpenAI call for this question",
+  "passed": true
+}

@@ -1,0 +1,36 @@
+{
+  "family": "lightgbm",
+  "best_trial": 1,
+  "parameters": {
+    "n_estimators": 600,
+    "learning_rate": 0.05,
+    "subsample": 1.0,
+    "colsample_bytree": 1.0,
+    "reg_alpha": 0.0,
+    "weight_multiplier": 1.0,
+    "max_depth": -1,
+    "num_leaves": 31,
+    "min_child_samples": 20,
+    "reg_lambda": 0.0,
+    "min_split_gain": 0.0
+  },
+  "summary": {
+    "mean_recall_at_10": 0.7777777777777778,
+    "mean_precision_at_10": 0.5413333333333333,
+    "mean_lift_at_10": 7.765333333333333,
+    "mean_average_precision": 0.7243256724283761,
+    "mean_roc_auc": 0.9456209305625682,
+    "std_recall_at_10": 0.0516886496675557,
+    "seconds": 18.44295410020277
+  },
+  "baseline_summary": {
+    "mean_recall_at_10": 0.7432950191570882,
+    "mean_precision_at_10": 0.5173333333333333,
+    "mean_lift_at_10": 7.421057471264368,
+    "mean_average_precision": 0.6853791409414655,
+    "mean_roc_auc": 0.9369020628933309,
+    "std_recall_at_10": 0.039072946464312516,
+    "seconds": 10.885424999985844
+  },
+  "trials": 40
+}

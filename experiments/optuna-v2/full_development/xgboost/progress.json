@@ -1,0 +1,8 @@
+{
+  "family": "xgboost",
+  "completed": 40,
+  "requested": 40,
+  "latest_trial": 39,
+  "latest_value": 0.7545871559633027,
+  "latest_state": "COMPLETE"
+}

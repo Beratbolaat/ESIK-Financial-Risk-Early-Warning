@@ -1,0 +1,1 @@
+={{ "KULLANICI SORUSU:\n" + $json.question + "\n\nEŞİK MODEL BAĞLAMI:\n" + $json.context_json + "\n\nÖNCEKİ SOHBET (güncel veri kaynağı değildir):\n" + $json.conversation_history_json + "\n\nMODEL DOĞRULAMA VE YÖNTEM BİLGİLERİ:\n" + $json.model_validation_json }}

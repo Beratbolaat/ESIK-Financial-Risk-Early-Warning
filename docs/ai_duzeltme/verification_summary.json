@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-15T14:26:24.329515+00:00",
+  "model": "XGBoost",
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "model_file_unchanged": true,
+  "pytest": {
+    "tests": 91,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "dashboard_pages": 8,
+  "live_n8n_questions": 10,
+  "local_probability_questions": 2,
+  "ui_company_switch_verified": true,
+  "live_n8n_workflow": "EŞİK v3 - Finansal Risk Asistanı",
+  "published_version": "EŞİK sohbet doğruluk düzeltmesi",
+  "remaining_limits": [
+    "Serbest AI yanıtları için evrensel doğruluk garantisi değildir.",
+    "Bu turda yeni ses kaydı alınmadı.",
+    "Modelin yeni bağımsız veride doğrulanması bu sohbet düzeltmesinin kapsamı dışındadır."
+  ]
+}

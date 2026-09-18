@@ -1,0 +1,208 @@
+{
+  "name": "EŞİK - Şirket Raporunu E-postala",
+  "nodes": [
+    {
+      "name": "Rapor Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "id": "6bdfb70a-82ac-4af1-ab15-ad13486a3cff",
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "esik-report-email",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "webhookId": "3d7d9d4c-1aff-4fd2-8426-5d457c43e482"
+    },
+    {
+      "name": "Rapor ve Alıcı Kontrolü",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "id": "6e75cc1d-4b84-452b-9219-448132b02755",
+      "position": [
+        240,
+        0
+      ],
+      "parameters": {
+        "jsCode": "const allowedRecipient = \"sender@example.com\";\nconst b = $json.body || {};\nconst subject = `EŞİK | ${b.company_id} | Şirket risk raporu`;\nconst ok = /^[^\\s@<>]+@[^\\s@<>]+\\.[^\\s@<>]+$/.test(allowedRecipient)\n  && b.recipient === allowedRecipient && /^ESIK-\\d{5}$/.test(b.company_id || '')\n  && /^[0-9a-f-]{36}$/i.test(b.request_id || '')\n  && b.subject === subject && typeof b.report_text === 'string'\n  && b.report_text.length >= 50 && b.report_text.length <= 30000\n  && !b.report_text.includes('\\u0000')\n  && b.report_version === 'esik-report-2'\n  && typeof b.report_html === 'string' && b.report_html.length >= 1000 && b.report_html.length <= 100000\n  && b.report_html.includes('name=\"esik-report-version\" content=\"esik-report-2\"')\n  && !/<(?:script|iframe|object|embed|form|input|link|meta[^>]+http-equiv)\\b|\\bon\\w+\\s*=|javascript\\s*:|(?:src|href)\\s*=/i.test(b.report_html);\nreturn [{json: {ok, recipient: allowedRecipient, request_id: String(b.request_id || ''),\n  subject, report_text: ok ? b.report_text : '', report_html: ok ? b.report_html : '', company_id: b.company_id || ''}}];"
+      }
+    },
+    {
+      "name": "Rapor Geçerli mi?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "id": "3441b513-d64d-4726-b8a6-532a8206af79",
+      "position": [
+        480,
+        0
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "09ab1684-b589-4f70-ab23-4764ed9991fd",
+              "leftValue": "={{ $json.ok }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "name": "Gmail ile Rapor Gönder",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "id": "4a468bf9-6521-4ee5-b1ee-ebfec6e79ae9",
+      "position": [
+        720,
+        -80
+      ],
+      "parameters": {
+        "fromEmail": "={{ $json.recipient }}",
+        "toEmail": "={{ $json.recipient }}",
+        "subject": "={{ $json.subject }}",
+        "emailFormat": "both",
+        "text": "={{ $json.report_text }}",
+        "html": "={{ $json.report_html }}",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "onError": "continueErrorOutput"
+    },
+    {
+      "name": "Gönderim Sonucu",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "id": "0810ffdf-1d0b-4aa2-9489-3aab065ab51b",
+      "position": [
+        1000,
+        -80
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ {status: $json.messageId && ($json.accepted || []).includes($('Rapor ve Alıcı Kontrolü').first().json.recipient) ? 'sent' : 'unknown', recipient: $('Rapor ve Alıcı Kontrolü').first().json.recipient, request_id: $('Rapor ve Alıcı Kontrolü').first().json.request_id, message_id: $json.messageId || null} }}",
+        "options": {}
+      }
+    },
+    {
+      "name": "Geçersiz Rapor",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "id": "164f764b-ac46-4b0f-9598-9b3c61e5f7eb",
+      "position": [
+        720,
+        180
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ {status: \"rejected\", error: \"Rapor veya alıcı geçersiz.\"} }}",
+        "options": {
+          "responseCode": 400
+        }
+      }
+    },
+    {
+      "name": "SMTP Hatası",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "id": "7dbd176d-d92d-4926-8323-d7c83807c1bc",
+      "position": [
+        1000,
+        100
+      ],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ {status: \"error\", error: \"SMTP gönderimi tamamlanamadı. n8n SMTP bağlantısını kontrol edin.\"} }}",
+        "options": {
+          "responseCode": 502
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Rapor Webhook": {
+      "main": [
+        [
+          {
+            "node": "Rapor ve Alıcı Kontrolü",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rapor ve Alıcı Kontrolü": {
+      "main": [
+        [
+          {
+            "node": "Rapor Geçerli mi?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Rapor Geçerli mi?": {
+      "main": [
+        [
+          {
+            "node": "Gmail ile Rapor Gönder",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Geçersiz Rapor",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail ile Rapor Gönder": {
+      "main": [
+        [
+          {
+            "node": "Gönderim Sonucu",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "SMTP Hatası",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataSuccessExecution": "none",
+    "saveDataErrorExecution": "none",
+    "saveManualExecutions": false
+  }
+}

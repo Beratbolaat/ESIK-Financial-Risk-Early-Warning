@@ -1,0 +1,21 @@
+{
+  "model": "XGBClassifier",
+  "source_project_unchanged": true,
+  "all_1170_raw_scores_max_error": 2.9204559326423407e-08,
+  "all_1170_calibrated_probabilities_max_error": 1.1102230246251565e-16,
+  "manifest": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "calibration_gate": {
+    "passed": true,
+    "criteria": "Both pooled outer Brier and log loss must improve over that family raw output"
+  },
+  "shap": {
+    "scale": "raw_log_odds",
+    "maximum_probability_reconstruction_error": 4.76837158203125e-07,
+    "company_count": 1170,
+    "local_rows": 74880
+  },
+  "release_tests_passed": 75,
+  "optuna_protocol_tests_passed": 6,
+  "live_n8n_openai_query_passed": true,
+  "voice_retested": false
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Eşik AI - Sesli Soruyu Yazıya Çevir",
+  "active": false,
+  "nodes": [
+    {
+      "id": "4dac6e11-d82c-4546-ad54-03614140e6b1",
+      "name": "Ses Kaydı",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [0, 0],
+      "webhookId": "a98c8a76-03c6-43c8-a4df-b09891bbdb91",
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "esik-voice",
+        "authentication": "headerAuth",
+        "responseMode": "responseNode",
+        "options": {"binaryData": true, "binaryPropertyName": "audio"}
+      }
+    },
+    {
+      "id": "41e5c12e-a6e5-4f42-a22f-f95e46eb59db",
+      "name": "Türkçe Metne Çevir",
+      "type": "@n8n/n8n-nodes-langchain.openAi",
+      "typeVersion": 2.3,
+      "position": [280, 0],
+      "parameters": {
+        "resource": "audio",
+        "operation": "transcribe",
+        "binaryPropertyName": "audio",
+        "options": {"language": "tr", "temperature": 0}
+      }
+    },
+    {
+      "id": "5cc68c55-cd47-4536-86bc-09559f7a2a4f",
+      "name": "Metni Döndür",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [560, 0],
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { text: $json.text } }}",
+        "options": {"responseCode": 200}
+      }
+    }
+  ],
+  "connections": {
+    "Ses Kaydı": {"main": [[{"node": "Türkçe Metne Çevir", "type": "main", "index": 0}]]},
+    "Türkçe Metne Çevir": {"main": [[{"node": "Metni Döndür", "type": "main", "index": 0}]]}
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataSuccessExecution": "none",
+    "saveDataErrorExecution": "none",
+    "saveManualExecutions": false
+  },
+  "pinData": {}
+}

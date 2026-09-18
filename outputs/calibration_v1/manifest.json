@@ -1,0 +1,15 @@
+{
+  "model_sha256": "281067c0fbc4a060b9ec3d1b4ce91a4b7f7cdcf4d8d36d5933aafe2a14d5ed41",
+  "files": {
+    "calibrator.json": "519efbaed8c3cea7a01e410ec03078ab516ded1303bea10d7406a75ef81c97d5",
+    "company_probabilities.csv": "b4863ec0c56cbd10d46249620a164173e0fe90abd6780cf1bcc83b478a8cacfe",
+    "development_reference.json": "d10614be4429a3d707dce4f0c469524e18635b5d07dccd4dcfdd0a2656699838",
+    "final_calibration_oof.csv": "a18685ff5fbaae8bd6a6e628f73364e2ca3434c8a1b3da399d029fe3664c82a5",
+    "final_calibration_splits.json": "8101d9abae10bc84b91367f26628848060427efc28d88a4727fab54f211fb53d",
+    "fold_results.json": "11967e3644eec7a95f67d668c6715549ba3aae07e70aedd2455063167ed5f654",
+    "outer_diagnostic_predictions.csv": "d40a387b3ac7cbc10a38c92f37805c64f540cbf5f7a89e8baa0e5292310a2399",
+    "protocol.json": "54b83831b55397cb901417d346747123d232e93ef572ffebca2bc57a871e9373",
+    "report-before-historical-test.json": "8e64ef9bd0007a22a2b8c7cdbffb5979f8478d6bc694bc9c8f114e4eb798ecc9",
+    "report.json": "e643a6ea58074d2e90cc76c125c2a1a873c9c426edbf381a824dc1fe93d717b1"
+  }
+}

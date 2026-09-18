@@ -1,0 +1,6719 @@
+{
+  "selected_family": "lightgbm",
+  "rows": [
+    {
+      "outer_fold": 0,
+      "model": "xgboost",
+      "recall_at_10": 0.7846153846153846,
+      "precision_at_10": 0.5425531914893617,
+      "lift_at_10": 7.812765957446808,
+      "captured": 51,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7337192911449492,
+      "roc_auc": 0.91387441490771,
+      "pr_auc_trapezoid": 0.7326129633609528,
+      "accuracy": 0.9497863247863247,
+      "precision": 0.6451612903225806,
+      "recall": 0.6153846153846154,
+      "f1": 0.6299212598425197,
+      "confusion_matrix": [
+        [
+          849,
+          22
+        ],
+        [
+          25,
+          40
+        ]
+      ],
+      "seconds": 2.0886862999759614,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 0,
+      "model": "lightgbm",
+      "recall_at_10": 0.7230769230769231,
+      "precision_at_10": 0.5,
+      "lift_at_10": 7.199999999999999,
+      "captured": 47,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7292204185902088,
+      "roc_auc": 0.9137684359268746,
+      "pr_auc_trapezoid": 0.7279900601833473,
+      "accuracy": 0.9626068376068376,
+      "precision": 0.8260869565217391,
+      "recall": 0.5846153846153846,
+      "f1": 0.6846846846846847,
+      "confusion_matrix": [
+        [
+          863,
+          8
+        ],
+        [
+          27,
+          38
+        ]
+      ],
+      "seconds": 4.126712500001304,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 0,
+      "model": "selected_procedure",
+      "recall_at_10": 0.7230769230769231,
+      "precision_at_10": 0.5,
+      "lift_at_10": 7.199999999999999,
+      "captured": 47,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7292204185902088,
+      "roc_auc": 0.9137684359268746,
+      "pr_auc_trapezoid": 0.7279900601833473,
+      "accuracy": 0.9626068376068376,
+      "precision": 0.8260869565217391,
+      "recall": 0.5846153846153846,
+      "f1": 0.6846846846846847,
+      "confusion_matrix": [
+        [
+          863,
+          8
+        ],
+        [
+          27,
+          38
+        ]
+      ],
+      "seconds": 4.126712500001304,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 0,
+      "model": "fixed_xgboost",
+      "recall_at_10": 0.7538461538461538,
+      "precision_at_10": 0.5212765957446809,
+      "lift_at_10": 7.506382978723404,
+      "captured": 49,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.7354099134006551,
+      "roc_auc": 0.9149342047160648,
+      "pr_auc_trapezoid": 0.7342518552088672,
+      "accuracy": 0.9551282051282052,
+      "precision": 0.7017543859649122,
+      "recall": 0.6153846153846154,
+      "f1": 0.6557377049180327,
+      "confusion_matrix": [
+        [
+          854,
+          17
+        ],
+        [
+          25,
+          40
+        ]
+      ],
+      "seconds": 2.365294700022787,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    },
+    {
+      "outer_fold": 0,
+      "model": "fixed_gradient_boosting",
+      "recall_at_10": 0.7076923076923077,
+      "precision_at_10": 0.48936170212765956,
+      "lift_at_10": 7.046808510638297,
+      "captured": 46,
+      "reviewed": 94,
+      "positives": 65,
+      "average_precision": 0.6565361737042748,
+      "roc_auc": 0.916258941976508,
+      "pr_auc_trapezoid": 0.6546840630677873,
+      "accuracy": 0.9508547008547008,
+      "precision": 0.8064516129032258,
+      "recall": 0.38461538461538464,
+      "f1": 0.5208333333333334,
+      "confusion_matrix": [
+        [
+          865,
+          6
+        ],
+        [
+          40,
+          25
+        ]
+      ],
+      "seconds": 27.260810100007802,
+      "train_rows": 3744,
+      "valid_rows": 936,
+      "train_positive": 261,
+      "weight_ratio": 13.344827586206897
+    }
+  ],
+  "predictions": [
+    {
+      "row_id": 3343,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7779805024810028e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3027,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.25334140145308e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1141,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.09086852845915713,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2349,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.879539269613638e-10,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4883,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1130801749483457e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5228,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2116156652486093e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2822,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2335491172733897e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2690,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8353182281155766e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1114,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00014099290685979038,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3198,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1791589194672649e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2382,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.137789928506269e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4326,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.373958298388192e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 212,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.400562722436302e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5821,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999458717987996,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 354,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.3385710780820933e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1775,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8573650248889483e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1087,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.724029603220018e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3245,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.241225924175405e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4973,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0264947868886929e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 330,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5559937467304969e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1371,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.933569307262674e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5344,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.592130997738994e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5729,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999729134589085,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1316,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.19260585349637344,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2194,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.0893560482186096e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2635,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.9982997394357876,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4390,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4153525131334656e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3350,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0001408066328730419,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3517,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.323813295180539e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3938,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.891400064132109e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1347,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.707139350218975e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 62,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.24801784151649e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4519,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.913409807889064e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4275,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.461970930501923e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4108,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.404994967874869e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5781,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9486420061871631,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5710,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 3.2201203098810426e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4827,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.5813935291296857e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2122,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.744560193704481e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 103,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.371246182746276e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5067,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.859535500366483e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2689,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.562514159552411e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1163,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3878200333448428e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 64,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.6300536636190455e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2821,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1405697112782212e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1407,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.003364848555061779,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5393,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.601038699674462e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2597,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0033874290676033977,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 413,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2112875787738104e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5111,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0839931291645655e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5061,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0001851922274713467,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4612,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.518711314107505e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5563,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.004634726445629666,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4967,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.247389625494882e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1096,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3718502023869647e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5021,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5615770851432295e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3489,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.940928000326434e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5280,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.371775036023388e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5371,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.376833054086467e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2949,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0350218384872202e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 132,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.269349258863454e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3755,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3161625249516907e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3984,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00010732911904595097,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4560,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.2984885157937125e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4065,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3058718203096154e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5659,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.44260642094214275,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 572,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.234446670032976e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3256,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8929178435976894e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5400,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00016251628257856298,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3830,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.298589845545746e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4024,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.636894930738098e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 897,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.419551071075607e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1481,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.002086152689798e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4436,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3495115310670804e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4510,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7119187457042695e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3203,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.365552471050252e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3835,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.1616606918665823e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1836,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.0379524201221496e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2501,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.703174621253592e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 556,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0005982750392938126,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3614,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.196046038621756e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2315,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.369131959359418e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3761,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.513979142516317e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3662,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.568555087449372e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5070,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.906869075764936e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4291,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9902177079158655e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4265,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1580189543923524e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5325,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3309993292137338e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3230,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3526204617428255e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2771,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.992765541510226e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4784,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.525366413815099e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5315,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.076251296332555e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5616,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 4.1133031253775765e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3969,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.075573795621403e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2827,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.049163540482887e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4905,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.030825294651412e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3184,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2789787167855357e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2673,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.687986838385244e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3427,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.0308556752493246e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1814,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2522927156708977e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4049,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0469181602663004e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2722,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0004127357312230065,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2245,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00016125038760254543,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3451,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.6189925266946277e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4609,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0591966156240699e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 836,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.736555963094925e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 933,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.921132425552885e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4924,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.118008878102679e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3305,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.112340503610371e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5634,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999661878655609,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1717,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.579454347378581e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 154,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.1643223390646796e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4344,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.4982133539677965e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2667,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.658491101748622e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5349,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.673635144312609e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3328,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.740651746139657e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5550,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9998166710644483,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2287,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.5171206199071935e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4314,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.326439550682216e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2077,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.948899758156828e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2405,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.2401977292023234e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 695,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3560850986676948e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4913,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00017178749114956065,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4437,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.308671167306455e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1876,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0018127312073756337,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5840,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.0004366139601558756,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 824,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.143515166143963e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5410,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.469969850745427e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2298,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.040537862123694e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1228,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.02382977609417654,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 391,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.163697531769221e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5165,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3262268890808772e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3226,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.346023708551716e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2025,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.849308843168166e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2857,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0009538114084488228,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2540,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3089227259508964e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4843,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1984007519199952e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4470,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.180113235954479e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2490,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.4753621760151344e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1988,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.874479752677975,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5426,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.16650193675608e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1176,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.223725602331628e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5243,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6035923059093293e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1911,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.694014747483296e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 628,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.057764011289434e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3136,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.899424561767386e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5230,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.543259474340754e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3579,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.819960504314525e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3738,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8938024046879635e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1726,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.827193283565817e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2261,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.44928346563296e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 305,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5372928336143272e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1527,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00014117214250804932,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 947,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.482815456636575e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1786,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4959956286526704e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5272,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.857514163509452e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4023,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4510298734576843e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1868,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.448059939007842e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1261,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.118541029599746e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4707,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2207834007128026e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3372,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.0452283771205925e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2648,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3834755616615125e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3394,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.034555302724669e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 648,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.466984961570125e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1015,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3150906020004089e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 436,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.13347764277946e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1172,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8859525230595845e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1251,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3797304007436785e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5302,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.171208966822751e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4363,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.783146845112191e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1618,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.227232906812207e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2529,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.378650578278999e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5500,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9979206367318026,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4673,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5819353846489433e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 716,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.058171438498429e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1879,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.017280027401742108,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1574,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2716253310736927e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4954,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.796755646074612e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1084,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2667396059518081e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2441,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.258654463739426e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4947,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1482766098430397e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2042,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.8196443529148314e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4928,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5488638805860076e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2922,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8689353705578204e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1068,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9563203343841537e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5114,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.69495903153753e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2189,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.4959402562539004e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1493,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2540811920154157e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2101,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0966119904845214e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5241,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6452828367472126e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5343,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4047917521121744e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 48,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2175257357613004e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 964,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3551969106004846e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4296,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.050582991920269e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 705,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.560741267977515e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2595,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9286207529946257e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 776,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.005664602330962e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2443,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.954008432698876e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3380,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.335339755789519e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1992,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4623391479149738e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2144,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.004394647563065e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 226,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.014437732474678e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 416,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.1691796570096334e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 787,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.8858757156322164e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 73,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.910337197629457e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3795,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.355285254951285e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4700,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.922657146170613e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2202,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.475586258107887e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 292,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.681028722573405e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5451,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.03232920074353485,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3383,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.315439055357267e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 982,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3125680097326e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5804,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.0002699635866304845,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2851,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.494332557399197e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1793,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.588315383975415e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4421,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0076547522587585e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1975,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.540782705723326e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2283,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.448137652342251e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 923,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.507520102861247e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5144,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.21077120205547e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1367,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2126382783666486e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3450,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.228179278858203e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4039,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.6708573547560074e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4177,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.553951553297276e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3732,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.45552436962698e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4334,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.720677855020291e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3112,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.688160557072257e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 969,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.6690676271835175e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3224,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0482501159922806e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 250,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4528881315775545e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 961,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.835066066685991e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 184,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.176654364020738e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 822,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.018487591938380097,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5446,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999592984025911,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4642,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.505963363389522e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2692,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.411183906171834e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2216,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.49478587156612447,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1605,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0723836126331533e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2829,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.161073918080386e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4960,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.939950251026625e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5530,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9059110347197588,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 893,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.120776942767839e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3457,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.908017575677046e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 758,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.947119238180827e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3393,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00010719824350897168,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2429,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.7412169787207479,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1635,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0270851146687143e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5736,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.002567483156349663,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4233,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.790291136607829e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5456,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.0005813230351989097,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1671,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.536920814637785e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5358,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.7696451627716345e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 684,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0914759214954167e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4544,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7196209434299617e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1284,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.883782193452091e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 699,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.12356683940445e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 33,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0812322032762328e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 363,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.1273708291973785e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2683,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.870792657323531e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3831,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.387468410472673e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2095,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.161027046761571e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 235,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.657407587720973e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1491,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7102671024900372e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4936,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.000102359463012237,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3483,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4999263237906838e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2419,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4852297441502072e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1885,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.4323064471784365e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 805,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.529350858614472e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 370,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6674118673360732e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5582,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.979021028357301,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 881,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.061906245819152e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5494,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 2.0116702930284406e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3546,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.995274100641578e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4480,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.388957063837474e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2093,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.089212031399082e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 41,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.997278171366588e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3311,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1979240283555503e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 868,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.1388553915012474e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5150,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.782583436899876e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3743,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1864692015787073e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 474,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0010135102027875255,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1240,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6476040871690383e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2110,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.256735983328355e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 751,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.6143099778957063e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3086,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9587275675146544e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5639,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 1.2976374849770008e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2936,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.508750555131036e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 373,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.893657382956077e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1528,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3060611593987995e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2130,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.258742077197306e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4998,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.901242422436963e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2272,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2240112901340168e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2542,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.17453697318535e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3956,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.253282470958261e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 411,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.460601841518966e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3995,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.304019131961198e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2440,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9326473337919148e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5447,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 1.4570149418884906e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1092,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.198715993839786e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1540,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.272419860933755e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4174,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.584708782738036e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2225,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0492575726754888e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 878,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.211895042321897e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2864,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0012718043606107913,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4989,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6518856754224108e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5838,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9334020072285962,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3543,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0688094228818178e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4315,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.540455778460318e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4280,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.6234382384337683e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4364,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.451806955988375e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2655,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1177880798289227e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4902,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2788770732343935e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4345,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2101317461200875e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3122,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.564215094050048e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4029,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.990489641633524e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3589,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0577032825944644e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5208,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.849810886388112e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1151,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0020928284585941255,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5734,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.5243130899517547,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5606,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999765953024553,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2091,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2881274993500102e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 688,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.703885749534836e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 773,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.7630053272809303e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 84,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.452933102351109e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2968,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.4019045275722012e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2426,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.614923570555588e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1111,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.6212108848972846e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3081,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9349594352496353e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2027,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.8277689803525514e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4204,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.14685293703108e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4917,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.823004350431206e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4904,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.091252231259086e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2482,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.190503457177647e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4745,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.321638415594811e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2806,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00020806802711416795,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5303,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.036675534502512e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2309,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.564349772093968e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5547,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999734528457601,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3104,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.010144655632549933,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2608,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.430188768734858e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2834,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2981680323636114e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3462,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.640748990988704e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 886,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.189374447010247e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1404,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.6345162129981872e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 903,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.79439400898105e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 509,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5115339167771465e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4981,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.806253874004815e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3935,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.594943993099483e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1071,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8566603385609194e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 206,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.051793912597369e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1972,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.737075020577058e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 639,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.513311260542984e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5301,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5254875963108774e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4735,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.132962921309203e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3233,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.694831396354131e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1406,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.924374331589096e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3893,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.142821923518601e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2870,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0008915341864705331,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3289,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0004888785226158531,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4586,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6856231555692371e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 197,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.285530208270154e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5498,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.999621873081055,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 985,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4070834458679046e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3651,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.587629903393839e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1090,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.843690972467689e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 419,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.033643109182539e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2258,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.249311196262525e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 850,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.6374652424350015e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1116,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6173663816500816e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2865,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.661780538027564e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1150,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4597074910700651e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1003,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5888120102228967e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5593,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9658359173481835,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2247,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6391701784095262e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4498,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.449438404428622e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4860,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.658700658528316e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1305,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4053496694317276e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5024,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.29884722786241824,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1457,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.626090299014656e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2174,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.000554995328824576,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3745,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.07859142133188347,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1921,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.952315646853463e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2709,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2087221810377116e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1201,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.1458229362187216e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2364,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4561401234112003e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1133,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.360836219522601e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2413,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.05915859153506812,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4343,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7747006071188036e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3843,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.144673253565188e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4768,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0011869850385099e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4403,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2168702381835863e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2903,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.593909634126002e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 843,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.559069631640364e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3148,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0006574159555717983,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4116,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.735670868686889e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4840,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.17971594801791851,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3291,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.297670855047875e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2947,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.24780359441873753,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2336,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.222893713106017e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3463,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.794168522799441e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4582,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.984247958051432e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 845,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.881548227629342e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2676,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.393406828469998e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3270,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.753694805678049e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3365,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.4981538554993606e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 312,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0870802295570452e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 991,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3353502712910285e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5026,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3004521809788064e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2398,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.9914753071529365e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5028,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.046454862537085e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1415,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4332482374293485e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3023,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4725774005719565e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3012,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.685402431044565e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4624,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7772822432655104e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 919,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.44605424414331e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1708,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.0093615164348805e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4164,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.959165345882744e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 600,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2593667055729775e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4011,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8559363387377157e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1438,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4580295391877207e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1291,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2782298895321729e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4128,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2342003504737747e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2674,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.179028922976306e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3244,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0006801754718913729,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1335,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.457812414542499e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1074,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.884478559791978e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5778,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.06867101388187376,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2389,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.107851019849797e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4303,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.7763653191868196,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2769,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.009709555184804824,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4887,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3949690654240063e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5224,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2341622605569633e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1041,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.197726920188735e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 204,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.774308710317496e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1917,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.422520067354161e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3606,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.91221242982763e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4422,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6259966188703888e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3303,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.113825676539532e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5261,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.4773365391471053e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1613,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.460618132368311e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4434,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.573152872544623e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1960,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.2550732582441084e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5437,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6504546010342076e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1386,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.998656391011165e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 924,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.001484280474614481,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2109,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7273750791146773e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1168,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0904718764541626e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1818,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4985100802381612e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3679,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0029634023087152e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5689,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999513441354918,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 307,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.604551543800731e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4107,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0004772919558913801,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2812,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0016033275996205055,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2953,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9474767397703524e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3689,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3341920295565383e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3857,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.7523652977940454e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3510,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.41812684855816e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2772,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.589592434913168e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2168,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1911324658158797e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5525,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 2.5834112731659886e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3958,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.0723669776239935e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 741,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.020937265528330966,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5090,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.08702154555035915,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5220,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0383015948183193e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5370,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.1390766533439295e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3721,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.96731014175525e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 314,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.436893014241266e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3275,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5411831639126917e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3532,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.143858855244717e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1100,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.982189924468343e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3595,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5056519402303915e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 677,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.499157967434752e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2005,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.985019523339455e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2396,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.650778371707825e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2207,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3845713268777223e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5066,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.323287774743389e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3111,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.374691642985115e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 83,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0007223921097165618,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5363,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.924133590043402e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4781,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.69604752792576e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2377,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3490764553030418e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1194,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0602585450194347e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5791,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9860130112465212,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3638,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.242915848985698e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5115,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.585840909744482e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5650,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999999460948394,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5725,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9994434167734936,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 353,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5332224356451667e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4392,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5819768613285087e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1727,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.020226640866981e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1167,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0085836381622215e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1298,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.043177312269275e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 798,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.1046471747247643e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4104,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.377469151516548e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 949,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.648983617112282e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 580,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2614641264463944e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 332,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00528815647184365,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3004,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1682419562281073e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2178,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9438557180965803e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1031,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.8580394096978253e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4579,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00018763709241088894,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4254,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6963736952025812e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 210,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.868216435641028e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1128,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.123721138029274e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2481,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.826455689841378e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5119,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.400230926098611e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1107,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.00912363556236e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2193,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.4007543662381816e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 680,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.002332784185281406,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3574,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.76831583979504e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2873,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0041114102408026e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3616,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.649576284508835e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 993,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.787277581918532e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 589,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.188869544480973e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3739,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.587775668971521e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1640,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4597444634299822e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 193,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.214070734472797e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4919,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.15053472522075e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 733,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.6977999629750365e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1935,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8185993473660823e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5462,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 2.299800764301225e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5226,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.477160941011024e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2842,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.846678972561564e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1561,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.951076549770156e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5077,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.303578020542159e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1856,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.515054082066164e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 829,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.44280867096168e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5560,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9995088344651035,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 93,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.840228610306278e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2375,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0002629173665399268,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2453,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0800987500390226e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4689,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2121700263063512e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4135,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4598162632621559e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5818,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.0656053375937277,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4491,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.1377247624591266e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3792,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0017617344611353231,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5816,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 6.282920962714792e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1138,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0150251858311298e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2514,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0003166623690391266,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4850,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.671495448708251e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1057,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00014752464648848414,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 549,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.583327088955609e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 141,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8309706799762693e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3171,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9302905833726058e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 574,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0177728984040122e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3954,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00011676769279444096,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4823,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.8411547270725174,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5186,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.030242301772068443,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3445,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.78954987151504e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2502,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0321852883420433e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1456,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2805463310052656e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2551,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.394944490548051e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2741,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.676247468320182e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1308,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.526419708649079e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3430,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9101432736343395e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3590,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0010287428527461554,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5397,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.928419544374638e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 328,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2204615062408124e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1933,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.750477677122905e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2663,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.872821748860233e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 782,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7090914154977575e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5690,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9998353674598084,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4077,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.002379588620237386,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5155,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.509298759301142e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1299,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.07621185858574436,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3458,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0980916081491258e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5584,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9876180894508814,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1890,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.468315318641788e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5179,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.762244615128875e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4799,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9579824735661498e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 597,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8201431773343365e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5417,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.922808289338896e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3753,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6356680652385182e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1093,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3904163998912473e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4738,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7877352610548856e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4837,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.011413219887388519,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5625,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.999855164511346,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2742,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.1548911244748834e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4428,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4094533477937647e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5480,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.0002830567504057272,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 469,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.703762849168681e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3788,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.020079047525679516,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 487,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.8414094057763345e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 617,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.831224281959252e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5132,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6316057490501474e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 726,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.532139902757887e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3641,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.090952586498389e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4639,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2820328523417564e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2780,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.707999221848066e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4161,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.5325707935500005e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3358,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0798393597561288e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3856,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.7039441446056365e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4815,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.352004411590916e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 635,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.16452864196785e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 232,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5390185448798522e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2630,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.914663704556351e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2976,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2419248621203789e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 313,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2397802155853598e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 861,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.70631419585687e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 780,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00016838461918116003,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1638,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.242178863955017e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 227,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.419522188836024e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1241,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2678444483009295e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 874,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.509121428017087e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2624,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.001092149755072e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 526,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9222533664395867e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 417,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0013307436675915963,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3106,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6203374656818732e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5380,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.1190813372736845e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5258,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.416876319921893e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2816,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.6999401804918814e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2558,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.375295820763171e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2128,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.807790147641672e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5830,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 5.843581649931195e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5633,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 2.649471932943908e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4565,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3711889686171705e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2276,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.1137149562442527e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 270,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.63512854629845e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1046,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.262982068506063e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1076,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.1050351172966357e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2187,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.338363972034966e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5183,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8715574950007113e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 883,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.506206364936687e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1200,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.568694074541292e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5749,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9995523097451584,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5305,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.086653997703554e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2045,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.6757820997147376e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3161,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.063019250423803e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3964,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0136699903711475e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1214,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.111230659537851e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 52,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.392916253394824e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1131,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3539834821231723e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5412,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.637085135621243e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 988,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.939618118742794e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4300,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.442853263600215e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4937,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.415561679855364e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5050,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00016581230555373804,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3044,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0180742975261477e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5112,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.814210368169347e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3061,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.651831053168383e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5317,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.16057637483994e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4225,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.092297229553886e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4749,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2827172806282543e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 857,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0011992849724738097,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4468,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.52732525033276e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3158,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.818288809796436e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3057,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7029663795739004e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 113,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.5062482605953385e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1420,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.965781665369126e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2359,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.823520519605746e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4907,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00014680629906120782,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 890,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.5362243065534535,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4202,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6433153926874004e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 106,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6633708957494282e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 136,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.393954232406882e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3643,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.937754015729746e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2355,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0005353036880836452,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5571,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 6.640241427495092e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 683,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3832970786795805e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5060,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.183501436513167e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2489,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.552881890417147e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4262,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.054936742989314e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5694,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 3.2681831222030615e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3952,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5794731925471564e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 24,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.314463945534608e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3402,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.594028043361006e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 636,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6129591369702002e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3329,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.923236006261813e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5257,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5159426261225214e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4063,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2835565848059444e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3839,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.780051495328108e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1517,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.6685997184319416e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 468,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3088584001430543e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4864,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4899575089669875e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1304,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.561811087049015e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2477,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.916564869144844e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1346,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.7267380084769076e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 445,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.869486903716248e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2530,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.258193454970571e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2735,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.755733598440197e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3741,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.697799761552356e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2532,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.226522269202036e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4678,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1624537894351652e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2106,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.787905892653206e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4751,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.673421461302913e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 624,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.713014831987376e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3684,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4748030622014792e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 664,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1658362615497681e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2099,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0011836524013670727,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1376,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.840929975541516e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3620,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.222803762429281e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5444,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 7.823647655631894e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1630,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3194308836377284e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4595,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.204105930613897e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 832,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.628451510761877e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1156,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.843356041594155e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4881,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8250068980247932e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5402,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2106287708565076e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1712,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7776369497444383e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3803,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.90057233372827e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 696,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.7024258970372e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3782,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.897666292391675e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4125,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.711379789635013e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 247,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.137657772354232e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1056,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.710739102810131e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2606,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1764570489170656e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 381,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.115205193196108e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1029,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4085275947149215e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1062,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.415897340805687e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5581,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.7995942254925442,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1705,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.0979938594408906e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2596,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.892046405849264e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3832,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.402516106007639e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4641,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.5169143693185e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3627,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8712248451935217e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5268,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1485591099980436e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3898,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.815553354046028e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 675,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0017676127784080396,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4412,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.924989482510278e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1781,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.925552233584577e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1792,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1850129031542219e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3342,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.072486737018001e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 870,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4318844050738478e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3866,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.954229537365885e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1864,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.652488196078912e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2410,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.187585080408858e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 191,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.1382061290623264e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1626,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00015215537510079662,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 269,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.117432812288649e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 47,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2413049301828394e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3228,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.681342870630923e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4431,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.5557575808562784e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4091,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.151416168924301e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1974,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9899534712676064e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4207,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.2565742291655094e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3281,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.48266457356037e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 302,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.494505732383114e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4444,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.20397960405378e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5724,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.999978145193116,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 351,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.0993552565379824e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4042,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.329512223614078e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3868,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.7832245275014854e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1401,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.34063004534597e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4855,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9222302680995278e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 669,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.296504949894717e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5776,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9925698812044533,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1744,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.280783228547553e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1472,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.325704233816367e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5394,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.6710424899034162e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3693,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.119397108404324e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1033,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.183198268242059e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 581,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.514396430364196e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1971,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.850765483468559e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1844,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8551724805587884e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3301,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.548819364029307e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3560,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7045569693795462e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5336,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5743166654766234e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1075,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.236076614074726e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1993,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0003775645271900214,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 123,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.872095803240742e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2823,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0002681923747100671,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1318,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.3586354740179e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1307,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.667120943455097e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1475,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.698376183104844e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2170,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.028748068208309448,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4652,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.6075334309924705e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3631,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.060318199401427e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 790,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5760088083225992e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1867,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7871365417078465e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3041,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.04162050374586626,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1910,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.00863601561516e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1217,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.7587915458345595e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 291,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.443431594232479e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4244,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.81280792631093e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5750,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9974943373233779,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2843,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.916532852866454e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4119,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2744423643671456e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4676,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.951911895026853e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5350,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.595842963931562e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5716,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9996760529419029,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2573,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.577584508184829e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2793,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0397901288038857e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1089,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.403251378303378e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3862,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0408782672532153e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2547,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.592792857774593e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2400,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.4712699442775935e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2088,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.592993740329829e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4405,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.339888140569112e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3917,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.579970748056911e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 387,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.014630185543815e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 238,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1644189015174322e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3726,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4757202126016675e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2978,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.719143985296349e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1684,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.5633780829179108,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4978,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.038344186706219e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4667,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.54950145724731e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3495,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.9761712410308557e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 528,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4910339027037598e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 274,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0003121313247701032,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 179,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.419293044587569e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2518,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.245625300331084e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1839,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.472473596311067e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3965,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1450979621160408e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 736,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.505260591529642e-10,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3196,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.413940841457069e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3368,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.9997524503815289,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 667,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7076904704547812e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 968,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.151751412433197e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2622,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.810967955682142e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1470,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.240118422412741e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3668,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.561438610922994e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1132,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8062006341792943e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5538,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9965998645436535,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 58,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.5150405644649756e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2952,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8216767240899824e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4987,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.010435165385160174,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 198,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9425073129514617e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2409,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.019646494398762086,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1757,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.003724476927761e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4203,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.6937621644033586e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3434,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.024627538069149e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2391,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.322430028401923e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 661,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.000100828892945519,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3484,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.206335145592619e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3286,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4453828950446724e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4502,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.8376122934318425e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1827,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3811517389429085e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2010,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.164259625004719e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3704,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0665762417284533e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5482,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.4252979702066887,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2051,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.3541120553125036e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5065,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0555943312481607e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1387,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.2310456835889286e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5708,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 1.1531727710420036e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5159,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.7156001266488976e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2483,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.5653916488767123e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4070,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.651822811609936e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1174,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4743364960127218e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 599,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.833120704481007e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5632,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9461427427200134,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1930,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.451390526050365e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1866,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.240220892433897e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5088,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.579916752096233e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1807,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.8351654193781078e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 155,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5239390711966536e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2546,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.730358020338244e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2428,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.012355393869024e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 879,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.884518291306758e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3554,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.038160808335404e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4636,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 8.259647241617182e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1187,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.5061867777365143e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5131,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.839490620697622e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2715,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.614848698142559e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1170,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.6523539321610587e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3988,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0869897472382108e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1808,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.1297809206091215e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1006,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.510593513196368e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2869,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.882700808302955e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3252,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.0572037509279528e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4744,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.882596054239369e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 627,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.000913225286944188,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 45,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.3176484013488e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 414,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.423493904878337e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2544,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.737544080774821e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2493,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.66993478278149e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 90,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.446470033742515e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5339,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9128753042984034e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5841,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9993524541532022,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1097,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.84526958633516e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5330,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.9652977874348016e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2798,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.108546227178901e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3905,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.846073434465842e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5031,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.001467646664959761,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2196,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.933450074913514e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5844,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999854237516218,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5520,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9979720288547224,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2992,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.40856444258263e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2273,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00016543714211749786,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3324,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.250451963779613e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 797,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.770273558784441e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3271,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.1486079909710565e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4036,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.9739576104480367e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4232,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.664964845777422e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1024,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.3707381420320804,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5188,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.2617872543981411e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5382,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.60813032444935e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4187,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.220080563583245e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5455,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9440165395932398,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2307,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2952332602568626e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1937,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.219634586955974e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5559,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.032856195110004455,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4427,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.924265127721965e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1324,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0004698862364184366,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3036,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7855103662626894e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1002,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.484928233834868e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 339,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.561172247140939e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4688,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 9.841297983022708e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2557,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.4608201067976345e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1469,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.96127709819243e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5501,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9975211860973202,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5846,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.9999972834841955,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3774,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.169858142882459e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 632,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.114962382743806e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2499,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.991489540674644e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2605,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.9142062820612492e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5367,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2138852596384318e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2649,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1477404794604253e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1753,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.783875782241235e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 989,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.03582545160785e-05,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1768,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.928207309622156e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3298,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.0385945812329063,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5573,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.11476330366059904,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3654,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.340268212793645e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1388,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.733935111817808e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1670,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00104897948180728,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2654,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.00048702395013738945,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 707,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4259852297471985e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 460,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.233601152754849e-09,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1506,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.1063056317155284e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2044,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 2.211672180222799e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 4602,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.592863506119683e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1248,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.09385595017368e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3642,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 3.226987642825266e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1000,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 4.1769378403618153e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1314,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 5.7247305483894297e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3533,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.763170294447569e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 263,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.1038104864680476e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 530,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 7.526532890148149e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 5849,
+      "outer_fold": 0,
+      "actual": 1,
+      "score": 0.999981328042228,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 3399,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4362127562238547e-07,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 68,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.2296850278396456e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2158,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.7679928460969304e-06,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 473,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 0.02745446335801845,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2792,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.4059370079442438e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 1800,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 1.3467097615434272e-08,
+      "family": "lightgbm"
+    },
+    {
+      "row_id": 2832,
+      "outer_fold": 0,
+      "actual": 0,
+      "score": 6.8047030111844745e-09,
+      "family": "lightgbm"
+    }
+  ]
+}

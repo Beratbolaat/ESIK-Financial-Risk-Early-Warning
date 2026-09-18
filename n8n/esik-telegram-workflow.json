@@ -1,0 +1,146 @@
+{
+  "name": "EŞİK v3 - Telegram Şirket Sorgusu",
+  "active": false,
+  "nodes": [
+    {
+      "id": "2a0cc4bf-4ac6-545b-8a3d-12556662df69",
+      "name": "Telegram Mesajı",
+      "type": "n8n-nodes-base.telegramTrigger",
+      "typeVersion": 1.5,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "updates": [
+          "message"
+        ],
+        "additionalFields": {}
+      },
+      "webhookId": "071cfc7b-4316-553b-aef6-57dd515cd56a"
+    },
+    {
+      "id": "c54d5ac7-356f-5e23-9ddb-682c6494d706",
+      "name": "Mesajı Hazırla",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Telegram Trigger output. Only private, human-authored text is accepted.\nreturn $input.all().flatMap((item, index) => {\n  const message = item.json.message;\n  if (!message || message.chat?.type !== 'private' || message.from?.is_bot !== false\n      || !message.from?.id || !message.chat?.id || typeof message.text !== 'string') return [];\n  const question = message.text.trim();\n  if (!question) return [];\n  return [{json: {question, channel: 'telegram', sender_id: String(message.from.id),\n    reply_to: String(message.chat.id), message_id: String(message.message_id || '')},\n    pairedItem: {item: index}}];\n});\n"
+      }
+    },
+    {
+      "id": "94672e3f-ae5b-55ef-99fc-5c1974f1176c",
+      "name": "Şirketi Sorgula",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8765/v1/company-query",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { question: $json.question, channel: $json.channel, sender_id: $json.sender_id } }}",
+        "options": {
+          "timeout": 45000
+        }
+      }
+    },
+    {
+      "id": "0e92373f-ed52-54c9-b097-e80ce5a42292",
+      "name": "Yanıt İzni",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "return $input.all().flatMap((item, index) => item.json.should_reply === true && typeof item.json.answer === 'string' && item.json.answer.trim() ? [{json: item.json, pairedItem: {item: index}}] : []);"
+      }
+    },
+    {
+      "id": "4b910312-806d-5683-990c-294717512d6f",
+      "name": "Yanıtı Gönder",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [
+        1040,
+        0
+      ],
+      "parameters": {
+        "resource": "message",
+        "operation": "sendMessage",
+        "chatId": "={{ $('Mesajı Hazırla').item.json.reply_to }}",
+        "text": "={{ $json.answer.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') }}",
+        "additionalFields": {
+          "appendAttribution": false,
+          "parse_mode": "HTML"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Telegram Mesajı": {
+      "main": [
+        [
+          {
+            "node": "Mesajı Hazırla",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mesajı Hazırla": {
+      "main": [
+        [
+          {
+            "node": "Şirketi Sorgula",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Şirketi Sorgula": {
+      "main": [
+        [
+          {
+            "node": "Yanıt İzni",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Yanıt İzni": {
+      "main": [
+        [
+          {
+            "node": "Yanıtı Gönder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataSuccessExecution": "none",
+    "saveDataErrorExecution": "none",
+    "saveManualExecutions": false
+  },
+  "pinData": {}
+}

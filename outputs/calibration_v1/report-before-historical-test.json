@@ -1,0 +1,20 @@
+{
+  "family": "xgboost",
+  "outer_raw": {
+    "brier": 0.034448554032687394,
+    "log_loss": 0.139147590237176,
+    "mean_prediction": 0.0732901860732663,
+    "observed_rate": 0.06965811965811966
+  },
+  "outer_calibrated": {
+    "brier": 0.03177616571823639,
+    "log_loss": 0.1206641299962594,
+    "mean_prediction": 0.07156430947519729,
+    "observed_rate": 0.06965811965811966
+  },
+  "deployment_gate": {
+    "passed": true,
+    "criteria": "Both pooled outer Brier and log loss must improve over that family raw output"
+  },
+  "scope": "Family-specific post-selection calibration diagnostic on previously inspected development folds"
+}

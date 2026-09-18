@@ -1,0 +1,37 @@
+{
+  "pages": [
+    {
+      "page": "Yönetici Özeti",
+      "errors": []
+    },
+    {
+      "page": "Analist Öncelik Listesi",
+      "errors": []
+    },
+    {
+      "page": "Şirket Detayı",
+      "errors": []
+    },
+    {
+      "page": "Yeni Veri Analizi",
+      "errors": []
+    },
+    {
+      "page": "Eşik AI",
+      "errors": []
+    },
+    {
+      "page": "Model Açıklaması",
+      "errors": []
+    },
+    {
+      "page": "Model Doğrulaması",
+      "errors": []
+    },
+    {
+      "page": "Model Kartı",
+      "errors": []
+    }
+  ],
+  "external_api_called": false
+}

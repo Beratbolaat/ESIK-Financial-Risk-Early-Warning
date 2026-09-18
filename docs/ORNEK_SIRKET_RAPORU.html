@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="esik-report-version" content="esik-report-2"><title>EŞİK · ESIK-05817</title>
+<style>body{margin:0;background:#edf0f3}table{border-collapse:collapse}.report-wrap{width:100%;max-width:760px}td{overflow-wrap:anywhere}@media(max-width:600px){.outer-pad{padding:12px!important}.section-pad{padding:22px 18px!important}.metric-value{font-size:25px!important}.evidence{font-size:11px!important}}@media print{body{background:white}.outer-pad{padding:0!important}.report-wrap{max-width:none!important}tr{break-inside:avoid}h2{break-after:avoid}.report-footer{break-inside:avoid}}</style></head>
+<body style="margin:0;background:#edf0f3;font-family:Arial,'Segoe UI',sans-serif;color:#1b2330;line-height:1.55">
+<div style="display:none;max-height:0;overflow:hidden">ESIK-05817 için inceleme sırası, olasılık tahmini ve finansal dayanaklar.</div>
+<table role="presentation" width="100%"><tr><td class="outer-pad" align="center" style="padding:30px 20px">
+<table role="presentation" class="report-wrap" width="760" style="width:100%;max-width:760px;background:#ffffff;border:1px solid #dce1e7">
+<tr><td class="section-pad" style="padding:30px 36px;background:#10141f;border-top:5px solid #d7ff42;color:#f4f5f0">
+<table role="presentation" width="100%"><tr><td style="font-size:28px;font-weight:800;letter-spacing:-1px;color:#d7ff42">EŞİK<span style="color:#b6a0ff">.</span></td><td align="right" style="font-size:11px;color:#c3c8d4">FİNANSAL İNCELEME RAPORU<br>16.09.2026</td></tr></table>
+<h1 style="font-size:34px;line-height:1.2;margin:27px 0 9px;letter-spacing:-1px">ESIK-05817</h1>
+<p style="margin:0;color:#c3c8d4;font-size:14px">İlk %10 inceleme listesinde<br>XGBoost modeli · 1 yıllık tahmin ufku</p></td></tr>
+<tr><td class="section-pad" style="padding:28px 36px 12px">
+<table role="presentation" width="100%" style="background:#f5f4fb;border-left:3px solid #8063e8"><tr>
+<td width="34%" style="padding:18px 12px;vertical-align:top"><span style="font-size:11px;color:#626b7a">İNCELEME SIRASI</span><br><strong class="metric-value" style="font-size:32px;line-height:1.5">3 <span style='font-size:16px;color:#727985'>/ 1170</span></strong></td>
+<td width="36%" style="padding:18px 12px;vertical-align:top"><span style="font-size:11px;color:#626b7a">KALİBRE TAHMİN</span><br><strong class="metric-value" style="font-size:32px;line-height:1.5;color:#5940bb">%99,0</strong><br><span style="font-size:11px;color:#626b7a">Keşifsel olasılık</span></td>
+<td width="30%" style="padding:18px 12px;vertical-align:top"><span style="font-size:11px;color:#626b7a">EKSİK GİRDİ</span><br><strong class="metric-value" style="font-size:32px;line-height:1.5">2 <span style="font-size:16px;color:#727985">/ 64</span></strong></td>
+</tr></table>
+<p style="font-size:12px;color:#626b7a;margin:13px 0 0">Ham model olasılığı %99,8. İnceleme sırası ham model skoruna dayanır. Kalibre tahmin ayrı gösterilir.</p></td></tr>
+<tr><td class="section-pad" style="padding:22px 36px 12px">
+<h2 style="font-size:20px;margin:0 0 8px;letter-spacing:-.4px">İnceleme özeti</h2>
+<p style="font-size:14px;margin:0">Bu kayıt 1170 şirket içinde 3. sırada yer alıyor. Kritik - İlk %5 grubunda. İlk %10 kapasite varsayımı altında analist inceleme listesine giriyor.</p>
+<p style="font-size:14px;margin:10px 0 0">2 finansal girdi eksik. Eksik girdiler modelde eğitim medyanlarıyla dolduruluyor.</p></td></tr>
+<tr><td class="section-pad" style="padding:22px 36px 12px">
+<h2 style="font-size:20px;margin:0 0 5px;letter-spacing:-.4px">Tahmini etkileyen göstergeler</h2>
+<p style="font-size:12px;color:#626b7a;margin:0 0 14px">Ham skoru en fazla artıran üç ve azaltan iki katkı</p>
+<table class="evidence" width="100%" style="font-size:12px;text-align:left;table-layout:fixed"><thead><tr style="background:#eef0f4;color:#525b6a">
+<th scope="col" width="43%" style="padding:10px 12px">Finansal gösterge</th><th scope="col" width="20%" style="padding:10px 8px">Gözlenen</th><th scope="col" width="19%" style="padding:10px 8px">Model girdisi</th><th scope="col" width="18%" style="padding:10px 10px;text-align:right">SHAP</th></tr></thead><tbody><tr>
+          <td style="padding:15px 12px;border-bottom:1px solid #e4e7eb;vertical-align:top;width:43%"><strong>Cari yıl satışları / önceki yıl satışları</strong><br><span style="color:#757c86;font-size:11px">Attr21 · Geliştirme medyanı 1,1177</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top"><strong style='color:#aa3c2c'>Eksik</strong><br><span style='font-size:11px;color:#757c86'>Eğitim medyanı kullanıldı</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">1,1177</td>
+          <td style="padding:15px 10px;border-bottom:1px solid #e4e7eb;vertical-align:top;text-align:right;color:#aa3c2c"><strong>+2,760</strong><br><span style="font-size:11px">Artırıyor</span></td>
+        </tr><tr>
+          <td style="padding:15px 12px;border-bottom:1px solid #e4e7eb;vertical-align:top;width:43%"><strong>Satış kârı / satışlar</strong><br><span style="color:#757c86;font-size:11px">Attr39 · Geliştirme medyanı 0,0395</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-0,2945</td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-0,2945</td>
+          <td style="padding:15px 10px;border-bottom:1px solid #e4e7eb;vertical-align:top;text-align:right;color:#aa3c2c"><strong>+1,091</strong><br><span style="font-size:11px">Artırıyor</span></td>
+        </tr><tr>
+          <td style="padding:15px 12px;border-bottom:1px solid #e4e7eb;vertical-align:top;width:43%"><strong>Satış kârı / toplam varlıklar</strong><br><span style="color:#757c86;font-size:11px">Attr35 · Geliştirme medyanı 0,0604</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-2,1101</td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-2,1101</td>
+          <td style="padding:15px 10px;border-bottom:1px solid #e4e7eb;vertical-align:top;text-align:right;color:#aa3c2c"><strong>+1,088</strong><br><span style="font-size:11px">Artırıyor</span></td>
+        </tr><tr>
+          <td style="padding:15px 12px;border-bottom:1px solid #e4e7eb;vertical-align:top;width:43%"><strong>Son üç yıllık brüt kâr / toplam varlıklar</strong><br><span style="color:#757c86;font-size:11px">Attr24 · Geliştirme medyanı 0,1641</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-2,1693</td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">-2,1693</td>
+          <td style="padding:15px 10px;border-bottom:1px solid #e4e7eb;vertical-align:top;text-align:right;color:#276951"><strong>-0,680</strong><br><span style="font-size:11px">Azaltıyor</span></td>
+        </tr><tr>
+          <td style="padding:15px 12px;border-bottom:1px solid #e4e7eb;vertical-align:top;width:43%"><strong>Toplam maliyetler / toplam satışlar</strong><br><span style="color:#757c86;font-size:11px">Attr58 · Geliştirme medyanı 0,9496</span></td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">1,1072</td>
+          <td style="padding:15px 8px;border-bottom:1px solid #e4e7eb;vertical-align:top">1,1072</td>
+          <td style="padding:15px 10px;border-bottom:1px solid #e4e7eb;vertical-align:top;text-align:right;color:#276951"><strong>-0,604</strong><br><span style="font-size:11px">Azaltıyor</span></td>
+        </tr></tbody></table>
+<p style="font-size:11px;color:#626b7a;margin:12px 0 0">SHAP değerleri ham modelin log-odds ölçeğindedir. Olasılığa yüzde puan katkısı veya neden-sonuç ilişkisi göstermez. Eksik girdi gözlenmiş değer gibi yorumlanmaz.</p></td></tr>
+<tr><td class="section-pad" style="padding:22px 36px">
+<table role="presentation" width="100%" style="background:#f5f7ef;border-left:3px solid #8caa24"><tr><td style="padding:18px 20px"><h2 style="font-size:18px;margin:0 0 8px">Analistin ilk kontrolü</h2><p style="font-size:14px;margin:0"><strong>Eksik finansal girdileri tamamlayın.</strong> Öne çıkan oranların dönemini ve muhasebe kapsamını kontrol edin. Finansal göstergeleri birlikte değerlendirin.</p></td></tr></table>
+<p style="font-size:12px;color:#626b7a;margin:18px 0 0">Aynı tahmin bandındaki 132 dış kat kaydının 123 tanesi iflas etiketliydi. Gözlenen grup oranı %93,2. Bu grup oranı, şirketin bireysel kesinliği değildir.</p></td></tr>
+<tr><td class="section-pad report-footer" style="padding:22px 36px;background:#f5f6f8;border-top:1px solid #e1e5eb">
+<strong style="font-size:12px">Raporun kapsamı</strong><p style="font-size:11px;color:#606a79;margin:7px 0">Tarihsel ve anonim Polonya verisine dayalı araştırma prototipi. Keşifsel kalibrasyon tahmini; güncel yerel dış doğrulama yapılmadı. Raporda şirketin gerçekleşmiş iflas etiketi kullanılmaz. Gerçek şirkette güncel mali tablolar ve bağımsız doğrulama gerekir.</p>
+<p style="font-size:10px;color:#7b8390;margin:16px 0 0">EŞİK · Ayşe Simal Alpözer ve Berat Bolat<br>Rapor no EFDAF5836F · esik-report-2</p></td></tr>
+</table></td></tr></table></body></html>

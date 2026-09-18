@@ -1,0 +1,35 @@
+{
+  "family": "xgboost",
+  "best_trial": 34,
+  "parameters": {
+    "n_estimators": 1000,
+    "learning_rate": 0.01417912260783671,
+    "subsample": 0.9233918909434181,
+    "colsample_bytree": 0.6097016094669724,
+    "reg_alpha": 0.0,
+    "weight_multiplier": 1.4163993045415972,
+    "max_depth": 5,
+    "min_child_weight": 1.4348700705689788,
+    "reg_lambda": 1.4303585824447587,
+    "gamma": 0.01
+  },
+  "summary": {
+    "mean_recall_at_10": 0.7190145237458788,
+    "mean_precision_at_10": 0.49866666666666665,
+    "mean_lift_at_10": 7.178641005078856,
+    "mean_average_precision": 0.655782573757994,
+    "mean_roc_auc": 0.918249089386459,
+    "std_recall_at_10": 0.0408489641868415,
+    "seconds": 14.668245499953628
+  },
+  "baseline_summary": {
+    "mean_recall_at_10": 0.6805666933974873,
+    "mean_precision_at_10": 0.472,
+    "mean_lift_at_10": 6.794777866880512,
+    "mean_average_precision": 0.6642141136935948,
+    "mean_roc_auc": 0.9181285078877051,
+    "std_recall_at_10": 0.03753055449261606,
+    "seconds": 8.549019700032659
+  },
+  "trials": 40
+}

@@ -1,0 +1,144 @@
+{
+  "name": "EŞİK v3 - WhatsApp Şirket Sorgusu",
+  "active": false,
+  "nodes": [
+    {
+      "id": "54da8e11-6e56-580a-a482-2b250480f836",
+      "name": "WhatsApp Mesajı",
+      "type": "n8n-nodes-base.whatsAppTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "parameters": {
+        "updates": [
+          "messages"
+        ],
+        "options": {}
+      },
+      "webhookId": "450b2a90-ff1a-58d7-b539-f3a73aedbe78"
+    },
+    {
+      "id": "c54d5ac7-356f-5e23-9ddb-682c6494d706",
+      "name": "Mesajı Hazırla",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        260,
+        0
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// WhatsApp Trigger emits change.value, not the outer Meta entry envelope.\nreturn $input.all().flatMap((item, index) => {\n  const event = item.json;\n  const phoneNumberId = event.metadata?.phone_number_id;\n  if (!phoneNumberId || !Array.isArray(event.messages)) return [];\n  return event.messages.flatMap(message => {\n    if (message.type !== 'text' || typeof message.text?.body !== 'string' || !message.from) return [];\n    const question = message.text.body.trim();\n    if (!question) return [];\n    return [{json: {question, channel: 'whatsapp', sender_id: String(message.from),\n      reply_to: String(message.from), phone_number_id: String(phoneNumberId),\n      message_id: String(message.id || '')}, pairedItem: {item: index}}];\n  });\n});\n"
+      }
+    },
+    {
+      "id": "94672e3f-ae5b-55ef-99fc-5c1974f1176c",
+      "name": "Şirketi Sorgula",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        520,
+        0
+      ],
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8765/v1/company-query",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ { question: $json.question, channel: $json.channel, sender_id: $json.sender_id } }}",
+        "options": {
+          "timeout": 45000
+        }
+      }
+    },
+    {
+      "id": "0e92373f-ed52-54c9-b097-e80ce5a42292",
+      "name": "Yanıt İzni",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        780,
+        0
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "return $input.all().flatMap((item, index) => item.json.should_reply === true && typeof item.json.answer === 'string' && item.json.answer.trim() ? [{json: item.json, pairedItem: {item: index}}] : []);"
+      }
+    },
+    {
+      "id": "d260b5a9-e729-592f-8447-d63b253349e7",
+      "name": "Yanıtı Gönder",
+      "type": "n8n-nodes-base.whatsApp",
+      "typeVersion": 1.1,
+      "position": [
+        1040,
+        0
+      ],
+      "parameters": {
+        "resource": "message",
+        "operation": "send",
+        "messageType": "text",
+        "phoneNumberId": "={{ $('Mesajı Hazırla').item.json.phone_number_id }}",
+        "recipientPhoneNumber": "={{ $('Mesajı Hazırla').item.json.reply_to }}",
+        "textBody": "={{ $json.answer }}"
+      }
+    }
+  ],
+  "connections": {
+    "WhatsApp Mesajı": {
+      "main": [
+        [
+          {
+            "node": "Mesajı Hazırla",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Mesajı Hazırla": {
+      "main": [
+        [
+          {
+            "node": "Şirketi Sorgula",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Şirketi Sorgula": {
+      "main": [
+        [
+          {
+            "node": "Yanıt İzni",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Yanıt İzni": {
+      "main": [
+        [
+          {
+            "node": "Yanıtı Gönder",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveDataSuccessExecution": "none",
+    "saveDataErrorExecution": "none",
+    "saveManualExecutions": false
+  },
+  "pinData": {}
+}
